@@ -8,9 +8,7 @@ public class Controls : MonoBehaviour
     float MAX_POS_Y = 20f;
     static float SPEED = 0.05f;
     float SPEED_DIAG = SPEED * Mathf.Sin(Mathf.PI / 4) + 0.002f;
-
-    Vector3 faceright = new Vector3(1, 1, 1);
-    Vector3 faceleft = new Vector3(-1, 1, 1);
+    public SpriteRenderer spriteToFlip;
 
     // Update is called once per frame
     void Update()
@@ -47,9 +45,9 @@ public class Controls : MonoBehaviour
 
         //flip sprite 
         if(right) {
-            transform.localScale = faceright;
+            spriteToFlip.flipX = false;
         } else if(left) {
-            transform.localScale = faceleft;
+            spriteToFlip.flipX = true;
         }
 
     }
