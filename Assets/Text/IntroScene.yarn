@@ -1,0 +1,54 @@
+title: Intro.start
+tags: 
+colorID: 0
+position: 365,27
+---
+Ghost: It's a nice afterlife, here in this  house.
+Ghost: I've been here for...oh goodness, has it really been almost a century already?
+Ghost: Honestly, starving to death in the late 1920s might have been the greatest decision I made in my life.
+Ghost: This is a lovely house. An ideal place to spend an eternity.
+Ghost: Some family comes by every so often, spends a weekend, keeps the place clean.
+Ghost: It is a small inconvenience, but I suppose it is better than having the place fall into disrepair.
+Ghost: After all, I never did quite get the hang of possessing objects, so I cannot maintain the house myself.
+Ghost: I suppose it is a small price to pay for a comfortable afterlife. And the family in question is quiet enough.
+Ghost: Yes, the best thing about death is not having to deal with other people anymore.
+
+Ghost:...hm? Is that family returning?
+Ghost: That doesn't sound like their usual automobile.
+Ghost:...that doesn't look like their usual automobile either.
+
+Luigi: Well, folks, here we are!
+Ghost: Oh, no.
+Luigi: My family's little home-away-from-home.
+Ghost: This is not the usual family.
+Forager: This place looks awesome!
+Jock: This place looks abandoned as heck.
+Stoner: It's an old house in the woods on a lake. I think that looking abandoned is part of the architecture.
+Not-Smoocher: Who cares? I'm ready to party!
+Ghost: Teenagers.
+Luigi: First we should get this stuff inside.
+Jock: I've got the beer!
+Ghost: Oh, no, no, no, this will not do at all!
+Forager: I've got the snacks!
+Stoner: Did we bring snacks?
+Forager: That puffball I found.
+Ghost: I do [b]not[/b] want a gang of rowdy teenagers in this house!
+Ghost: I need to get rid of them somehow.
+Not-Smoocher: You and your mushrooms. I want to check out the bedrooms!
+Ghost: But how? I can't kill them.
+Forager: I'm going to the basement.
+Ghost: If I do that, then they'll just be stuck here as ghosts forever.
+Stoner: I think I'll go down to the lake, see what's down there.
+Ghost: The last thing I want is [b]roommates[/b].
+Luigi: You mean you're going to light up before the party.
+Ghost: Maybe I can possess them?
+->Stoner: You know it!
+    Luigi: Of course you are.
+->Stoner: Of course, my good fellow.
+    Luigi: What? Why are you talking like that?
+Ghost: ...did I do that?
+Luigi: Ok. I'm going to clean a bit before we call everyone.
+Ghost: Even if I cannot alter their movements, I can alter their speech. 
+Luigi: Let's say we call the whole crew in two hours? So, at midnight?
+Ghost: I have two hours to frighten these rapscallions enough to leave me alone.
+===
