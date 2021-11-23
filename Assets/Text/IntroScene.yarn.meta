@@ -8,15 +8,12 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
-  stringIDs:
-  - IntroScene-Intro.start-0
-  - IntroScene-Intro.start-1
-  - IntroScene-Intro.start-2
-  - IntroScene-Intro.start-3
-  - IntroScene-Intro.start-4
+  baseLanguageID: en-US
+  stringIDs: []
   compilationStatus: 1
-  isSuccesfullyCompiled: 1
-  compilationErrorMessage: 
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: "Error on line 35 at position 15:\nmismatched input ']'
+    expecting FORMAT_FUNCTION_EXPRESSION_START\r\nGhost: I do [b]not[/b] want a gang
+    of rowdy teenagers in this house!\r\n              ^"
   baseLanguage: {instanceID: 0}
   localizations: []
