@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4bb0a67c23712d146ac338d6b7fa33db
+guid: 791af77c62f00be439edb13b4a57074c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,14 +8,15 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: en-US
+  baseLanguageID: 
   stringIDs:
-  - DontBurnTheHouseDown-Start-0
-  - DontBurnTheHouseDown-Start-1
-  - DontBurnTheHouseDown-Start-2
-  - DontBurnTheHouseDown-Start-3
+  - InterruptingTheMagicGame-Start-0
+  - InterruptingTheMagicGame-Start-1
+  - InterruptingTheMagicGame-Start-2
+  - InterruptingTheMagicGame-Start-3
+  - InterruptingTheMagicGame-Start-4
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {fileID: 7128917941130120860, guid: 4bb0a67c23712d146ac338d6b7fa33db, type: 3}
+  baseLanguage: {instanceID: 0}
   localizations: []
