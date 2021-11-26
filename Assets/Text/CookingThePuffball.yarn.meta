@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 5d1b1b967efe90f43a6e49bfb41db5e1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - CookingThePuffball-Start-0
+  - CookingThePuffball-Start-1
+  - CookingThePuffball-Start-2
+  - CookingThePuffball-Start-3
+  - CookingThePuffball-Start-4
+  - CookingThePuffball-Start-5
+  - CookingThePuffball-Start-6
+  - CookingThePuffball-Start-7
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
