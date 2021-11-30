@@ -20,6 +20,12 @@ public class Scene : MonoBehaviour
         }
     }
 
+    //will happen when the SceneController enables me. 
+    //cue to start this scene and its dialogue. 
+    void OnEnable() {
+        FindObjectOfType<DialogueRunner>().StartDialogue("Intro.start");
+    }
+
     // Update is called once per frame
     void Update()
     {
