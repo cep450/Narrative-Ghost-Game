@@ -16,15 +16,22 @@ public class Scene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (scriptBaseline != null) {
-            dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
-            dialogueRunner.Add(scriptBaseline);              
-        }
+        
     }
 
     //will happen when the SceneController enables me. 
     //cue to start this scene and its dialogue. 
     void OnEnable() {
+
+        //load the script 
+        /*
+        if (scriptBaseline != null) {
+            dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
+            dialogueRunner.Add(scriptBaseline);              
+        }
+        */
+
+        //kick off the dialogue in the scene 
         FindObjectOfType<DialogueRunner>().StartDialogue(startNode);
     }
 
