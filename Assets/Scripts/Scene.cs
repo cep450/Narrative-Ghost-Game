@@ -23,15 +23,6 @@ public class Scene : MonoBehaviour
     //cue to start this scene and its dialogue. 
     void OnEnable() {
 
-        //load the script 
-        /*
-        if (scriptBaseline != null) {
-            dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
-            dialogueRunner.Add(scriptBaseline);              
-        }
-        */
-
-        //kick off the dialogue in the scene 
         FindObjectOfType<DialogueRunner>().StartDialogue(startNode);
     }
 

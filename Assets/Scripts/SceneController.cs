@@ -11,25 +11,23 @@ public class SceneController : MonoBehaviour
 
 
     public GameObject sc_intro; 
-    public int sc_intro_delay;
+    public GameObject sc_puffball;
+    //ect for scenes 
 
-
-    float tracker = 0;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //just temporary. this would happen at some certain point 
+        sc_intro.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        tracker += Time.deltaTime;
-        if(tracker > sc_intro_delay) {
-            sc_intro.SetActive(true);
-        }
+
+
     }
 
     //private IEnumerator TimedScene(Scene scene) {

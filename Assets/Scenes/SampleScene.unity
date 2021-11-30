@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sc_intro: {fileID: 1607073720}
-  sc_intro_delay: 5
+  sc_puffball: {fileID: 0}
 --- !u!4 &746620
 Transform:
   m_ObjectHideFlags: 0
@@ -636,7 +636,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yarnScripts:
+  - {fileID: 2480198943629176163, guid: 5d1b1b967efe90f43a6e49bfb41db5e1, type: 3}
+  - {fileID: 2480198943629176163, guid: 4bb0a67c23712d146ac338d6b7fa33db, type: 3}
+  - {fileID: 2480198943629176163, guid: f90716c715e41b9469e10a462a37c6ad, type: 3}
+  - {fileID: 2480198943629176163, guid: f235e4143c6b56743920213f638d6584, type: 3}
+  - {fileID: 2480198943629176163, guid: 791af77c62f00be439edb13b4a57074c, type: 3}
   - {fileID: 2480198943629176163, guid: e6c2b2422e52d4945b401a8f18d7176e, type: 3}
+  - {fileID: 2480198943629176163, guid: 9adbc6a59a91ae34592a1d8fcdd426dc, type: 3}
+  - {fileID: 2480198943629176163, guid: 8bdd7418261ec8e4b86042a70d2ff2b0, type: 3}
+  - {fileID: 2480198943629176163, guid: 3f2736db727c11c4c948cf2aeebcc23f, type: 3}
+  - {fileID: 2480198943629176163, guid: 4f1ad49937381ae468dfd92218b24292, type: 3}
+  - {fileID: 2480198943629176163, guid: d7ea201ee7f24d741bad00fff8b8da74, type: 3}
+  - {fileID: 2480198943629176163, guid: f2392e041543e27409fe436377cfa2e2, type: 3}
+  - {fileID: 2480198943629176163, guid: d3ceec5ae8e7aae4bb6ab39a3a675af8, type: 3}
   textLanguage: 
   variableStorage: {fileID: 409936350}
   dialogueUI: {fileID: 409936348}
