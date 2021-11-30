@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: f2392e041543e27409fe436377cfa2e2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - InterruptingTheMagicGame-Start-0
+  - InterruptingTheMagicGame-Start-1
+  - InterruptingTheMagicGame-Start-2
+  - InterruptingTheMagicGame-Start-3
+  - InterruptingTheMagicGame-Start-4
+  - InterruptingTheMagicGame-Start-5
+  - InterruptingTheMagicGame-Start-6
+  - InterruptingTheMagicGame-Start-7
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

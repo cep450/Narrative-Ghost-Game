@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f90716c715e41b9469e10a462a37c6ad
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - DoYouWantToGoUpstairs-Start-0
+  - DoYouWantToGoUpstairs-Start-1
+  - DoYouWantToGoUpstairs-Start-2
+  - DoYouWantToGoUpstairs-Start-3
+  - DoYouWantToGoUpstairs-Start-4
+  - DoYouWantToGoUpstairs-Start-5
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: f90716c715e41b9469e10a462a37c6ad, type: 3}
+  localizations: []
