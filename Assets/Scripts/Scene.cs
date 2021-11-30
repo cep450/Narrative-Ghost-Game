@@ -6,6 +6,8 @@ namespace Yarn.Unity {
 public class Scene : MonoBehaviour
 {
 
+    public string startNode;
+
     public YarnProgram scriptBaseline;
     public YarnProgram scriptInteraction;
 
@@ -23,7 +25,7 @@ public class Scene : MonoBehaviour
     //will happen when the SceneController enables me. 
     //cue to start this scene and its dialogue. 
     void OnEnable() {
-        FindObjectOfType<DialogueRunner>().StartDialogue();
+        FindObjectOfType<DialogueRunner>().StartDialogue(startNode);
     }
 
     // Update is called once per frame

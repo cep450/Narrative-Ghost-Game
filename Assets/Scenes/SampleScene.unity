@@ -635,11 +635,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yarnScripts: []
+  yarnScripts:
+  - {fileID: 2480198943629176163, guid: e6c2b2422e52d4945b401a8f18d7176e, type: 3}
   textLanguage: 
   variableStorage: {fileID: 409936350}
-  dialogueUI: {fileID: 0}
-  startNode: Start
+  dialogueUI: {fileID: 409936348}
+  startNode: 
   startAutomatically: 0
   onNodeStart:
     m_PersistentCalls:
@@ -1682,6 +1683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b894d359b1f5d429ed905a9649bd8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startNode: Intro.start
   scriptBaseline: {fileID: 2480198943629176163, guid: e6c2b2422e52d4945b401a8f18d7176e, type: 3}
   scriptInteraction: {fileID: 2480198943629176163, guid: e6c2b2422e52d4945b401a8f18d7176e, type: 3}
 --- !u!61 &1607073723
