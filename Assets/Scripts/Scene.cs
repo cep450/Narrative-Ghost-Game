@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Yarn.Unity.Example {
+namespace Yarn.Unity {
 public class Scene : MonoBehaviour
 {
 
@@ -16,14 +16,14 @@ public class Scene : MonoBehaviour
     {
         if (scriptBaseline != null) {
             dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
-            dialogueRunner.Add(scriptBaseline);                
+            dialogueRunner.Add(scriptBaseline);              
         }
     }
 
     //will happen when the SceneController enables me. 
     //cue to start this scene and its dialogue. 
     void OnEnable() {
-        FindObjectOfType<DialogueRunner>().StartDialogue("Intro.start");
+        FindObjectOfType<DialogueRunner>().StartDialogue();
     }
 
     // Update is called once per frame
@@ -57,11 +57,6 @@ public class Scene : MonoBehaviour
         
 
     }
-
-    public void enableScene() {
-        //TODO set the collider enabled basically 
-    }
-
     
 }
 }
