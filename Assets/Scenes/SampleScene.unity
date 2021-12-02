@@ -646,9 +646,6 @@ MonoBehaviour:
   - {fileID: 2480198943629176163, guid: 8bdd7418261ec8e4b86042a70d2ff2b0, type: 3}
   - {fileID: 2480198943629176163, guid: 3f2736db727c11c4c948cf2aeebcc23f, type: 3}
   - {fileID: 2480198943629176163, guid: 4f1ad49937381ae468dfd92218b24292, type: 3}
-  - {fileID: 2480198943629176163, guid: d7ea201ee7f24d741bad00fff8b8da74, type: 3}
-  - {fileID: 2480198943629176163, guid: f2392e041543e27409fe436377cfa2e2, type: 3}
-  - {fileID: 2480198943629176163, guid: d3ceec5ae8e7aae4bb6ab39a3a675af8, type: 3}
   textLanguage: 
   variableStorage: {fileID: 409936350}
   dialogueUI: {fileID: 409936348}
