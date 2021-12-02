@@ -2,14 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Yarn.Unity {
 public class Puppetmaster : MonoBehaviour
 {
+
+    /////// to get variables from twine-- 
+    //variableStorage.GetValue("variableName").AsBool (or AsNumber ect)
+
+
     //this is wildly inefficient but that's ok this is fine
     public Character Avery;
     public Character Shaun;
     public Character Tracy;
     public Character Preston;
     public Character Luigi; 
+
+
+    InMemoryVariableStorage variableStorage;
 
 
     /* Basically, the (wildly) ineffective way this code works is that every character should run on their own coroutine timeline. Movements are all manually inserted, then the WaitForSeconds(), then another movement,
@@ -19,6 +28,8 @@ public class Puppetmaster : MonoBehaviour
 
     private void Start()
     {
+        variableStorage = FindObjectOfType<InMemoryVariableStorage>();
+
         StartCoroutine(AveryTimeline());
         StartCoroutine(ShaunTimeline());
     }
@@ -64,4 +75,5 @@ public class Puppetmaster : MonoBehaviour
         yield return new WaitForSeconds(3);
         MoveTarget(Avery, 7, -3, -7);
     }*/
+}
 }
