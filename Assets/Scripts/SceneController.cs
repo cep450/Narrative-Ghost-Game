@@ -20,7 +20,8 @@ public class SceneController : MonoBehaviour
     void Start()
     {
         //just temporary. this would happen at some certain point 
-        sc_intro.SetActive(true);
+        StartCoroutine(intro());
+        
     }
 
     // Update is called once per frame
@@ -28,6 +29,16 @@ public class SceneController : MonoBehaviour
     {
 
 
+    }
+
+    IEnumerator intro() {
+
+        float sec = 5;
+        for (float counter = 0; counter < sec; counter += Time.deltaTime)
+        {
+            yield return null;
+        }
+        sc_intro.SetActive(true);
     }
 
     //private IEnumerator TimedScene(Scene scene) {
