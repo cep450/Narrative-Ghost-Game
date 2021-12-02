@@ -10,14 +10,14 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
   stringIDs:
-  - InterruptingTheMagicGame-Start-0
-  - InterruptingTheMagicGame-Start-1
-  - InterruptingTheMagicGame-Start-2
-  - InterruptingTheMagicGame-Start-3
-  - InterruptingTheMagicGame-Start-4
-  - InterruptingTheMagicGame-Start-5
-  - InterruptingTheMagicGame-Start-6
-  - InterruptingTheMagicGame-Start-7
+  - InterruptingTheMagicGame-InterruptingTheMagicGame.Haunted-0
+  - InterruptingTheMagicGame-InterruptingTheMagicGame.Haunted-1
+  - InterruptingTheMagicGame-InterruptingTheMagicGame.Haunted-2
+  - InterruptingTheMagicGame-InterruptingTheMagicGame.Haunted-3
+  - InterruptingTheMagicGame-InterruptingTheMagicGame.Haunted-4
+  - InterruptingTheMagicGame-InterruptingTheMagicGame.Haunted-5
+  - InterruptingTheMagicGame-InterruptingTheMagicGame.Haunted-6
+  - InterruptingTheMagicGame-InterruptingTheMagicGame.Haunted-7
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 

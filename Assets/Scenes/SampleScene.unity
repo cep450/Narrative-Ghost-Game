@@ -675,7 +675,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 610c541718d694070a21327d1ae62e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultVariables: []
+  defaultVariables:
+  - name: haunted
+    value: 0
+    type: 0
+  - name: isPrestonScared
+    value: 0
+    type: 0
+  - name: isTracyScared
+    value: 0
+    type: 0
+  - name: isAveryScared
+    value: 0
+    type: 0
+  - name: isShaunScared
+    value: 0
+    type: 0
   debugTextView: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
@@ -1781,6 +1796,7 @@ MonoBehaviour:
   startNode: Intro.Normal
   scriptBaseline: {fileID: 2480198943629176163, guid: e6c2b2422e52d4945b401a8f18d7176e, type: 3}
   scriptInteraction: {fileID: 2480198943629176163, guid: e6c2b2422e52d4945b401a8f18d7176e, type: 3}
+  usingNodes: 0
 --- !u!61 &1607073723
 BoxCollider2D:
   m_ObjectHideFlags: 0

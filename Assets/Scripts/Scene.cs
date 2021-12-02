@@ -11,7 +11,11 @@ public class Scene : MonoBehaviour
     public YarnProgram scriptBaseline;
     public YarnProgram scriptInteraction;
 
+    public bool usingNodes;
+
     DialogueRunner dialogueRunner;
+
+    InMemoryVariableStorage variableStorage;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +27,9 @@ public class Scene : MonoBehaviour
     //cue to start this scene and its dialogue. 
     void OnEnable() {
 
-        FindObjectOfType<DialogueRunner>().StartDialogue(startNode);
+        variableStorage = FindObjectOfType<InMemoryVariableStorage>();
+        dialogueRunner = FindObjectOfType<DialogueRunner>();
+        dialogueRunner.StartDialogue(startNode);
     }
 
     // Update is called once per frame
@@ -34,26 +40,44 @@ public class Scene : MonoBehaviour
 
     public void possess() {
 
-        //TODO get to the line the other one was at 
-        //maybe add variables keeping track of line 
-        //research if swithcing between files is the right thing to do 
+
+        //set the yarn haunted variable to true
+        variableStorage.SetValue("haunted", true);
+        
+        
+        //if this is a longer script, we need to translate what node it's on. 
+        if(usingNodes) {
+            string nodename = dialogueRunner.Dialogue.currentNode;
+            dialogueRunner.Add(scriptInteraction);
+            dialogueRunner.StartDialogue(nodename); //TODO naming convention 
+        }
+
+
+        /*
+
+            // Store a value into a variable
+            public virtual void SetValue(string variableName, Yarn.Value value) {
+                // 'variableName' is the name of the variable that 'value' 
+                // should be stored in.
+            }
+
+            // Return a value, given a variable name
+            public virtual Yarn.Value GetValue(string variableName) {
+                // 'variableName' is the name of the variable to return a value for
+            }
+
+            // Return to the original state
+            public virtual void ResetToDefaults () {
+
+            }
+
+        */
 
         //use Dialogue.currentNode 
         //and SetNode(string)
         //like SetNode(theOldDialogue.currentNode)
-        //DialogueRunner.Dialogue 
 
         //dialogueRunner.Dialogue.SetNode(nodename);
-        
-        
-        string nodename = dialogueRunner.Dialogue.currentNode;
-        dialogueRunner.Add(scriptInteraction);
-        dialogueRunner.StartDialogue(nodename);
-        
-        
-        /*
-        FindObjectOfType<DialogueRunner> ().StartDialogue (target.talkToNode);
-        */
         
 
     }
