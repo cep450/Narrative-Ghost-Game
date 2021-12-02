@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4f1ad49937381ae468dfd92218b24292
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - WhereAreNotSmoocherAndLuigi-Start-0
+  - WhereAreNotSmoocherAndLuigi-Start-1
+  - WhereAreNotSmoocherAndLuigi-Start-2
+  - WhereAreNotSmoocherAndLuigi-Start-3
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 4f1ad49937381ae468dfd92218b24292, type: 3}
+  localizations: []

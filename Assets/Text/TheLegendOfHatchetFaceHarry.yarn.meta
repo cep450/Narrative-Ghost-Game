@@ -1,0 +1,56 @@
+fileFormatVersion: 2
+guid: 3f2736db727c11c4c948cf2aeebcc23f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - TheLegendOfHatchetFaceHarry-Start-0
+  - TheLegendOfHatchetFaceHarry-Start-1
+  - TheLegendOfHatchetFaceHarry-Start-2
+  - TheLegendOfHatchetFaceHarry-Start-3
+  - TheLegendOfHatchetFaceHarry-Start-4
+  - TheLegendOfHatchetFaceHarry-Start-5
+  - TheLegendOfHatchetFaceHarry-Start-6
+  - TheLegendOfHatchetFaceHarry-Start-7
+  - TheLegendOfHatchetFaceHarry-Start-8
+  - TheLegendOfHatchetFaceHarry-Start-9
+  - TheLegendOfHatchetFaceHarry-Start-10
+  - TheLegendOfHatchetFaceHarry-Start-11
+  - TheLegendOfHatchetFaceHarry-Start-12
+  - TheLegendOfHatchetFaceHarry-Start-13
+  - TheLegendOfHatchetFaceHarry-Start-14
+  - TheLegendOfHatchetFaceHarry-Start-15
+  - TheLegendOfHatchetFaceHarry-Start-16
+  - TheLegendOfHatchetFaceHarry-Start-17
+  - TheLegendOfHatchetFaceHarry-Start-18
+  - TheLegendOfHatchetFaceHarry-Start-19
+  - TheLegendOfHatchetFaceHarry-Start-20
+  - TheLegendOfHatchetFaceHarry-Start-21
+  - TheLegendOfHatchetFaceHarry-Start-22
+  - TheLegendOfHatchetFaceHarry-Start-23
+  - TheLegendOfHatchetFaceHarry-Start-24
+  - TheLegendOfHatchetFaceHarry-Start-25
+  - TheLegendOfHatchetFaceHarry-Start-26
+  - TheLegendOfHatchetFaceHarry-Start-27
+  - TheLegendOfHatchetFaceHarry-Start-28
+  - TheLegendOfHatchetFaceHarry-Start-29
+  - TheLegendOfHatchetFaceHarry-Start-30
+  - TheLegendOfHatchetFaceHarry-Start-31
+  - TheLegendOfHatchetFaceHarry-Start-32
+  - TheLegendOfHatchetFaceHarry-Start-33
+  - TheLegendOfHatchetFaceHarry-Start-34
+  - TheLegendOfHatchetFaceHarry-Start-35
+  - TheLegendOfHatchetFaceHarry-Start-36
+  - TheLegendOfHatchetFaceHarry-Start-37
+  - TheLegendOfHatchetFaceHarry-Start-38
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
