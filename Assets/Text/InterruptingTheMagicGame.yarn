@@ -1,11 +1,15 @@
-title: InterruptingTheMagicGame.Normal
+title: InterruptingTheMagicGame
 tags: 
 colorID: 0
-position: 116,-463
+position: 66,-593
 ---
-Shaun: Hey, Tracy? Luigi? You in there?
-Tracy: Oh, hi Shaun! 
-Luigi: Help me, Shaun, she's kicking my ass.
-Tracy: I can't help it I'm so good, Luigi.
-Shaun: I'm coming in.
+->Shaun: Hey, Tracy? Luigi? You in there?
+    Tracy: Oh, hi Shaun! 
+    Luigi: Help me, Shaun, she's kicking my ass.
+    Tracy: I can't help it I'm so good, Luigi.
+    Shaun: I'm coming in.
+->Shaun: BOO!<<if $haunted is 1>>
+    Tracy: EEEEEK!
+    Luigi: Yo, what the hell, Shaun?!
+<<set $haunted to 0>>
 ===
