@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 9adbc6a59a91ae34592a1d8fcdd426dc
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - LetsGetThisPartyStarted-Start-0
+  - LetsGetThisPartyStarted-Start-1
+  - LetsGetThisPartyStarted-Start-2
+  - LetsGetThisPartyStarted-Start-3
+  - LetsGetThisPartyStarted-Start-4
+  - LetsGetThisPartyStarted-Start-5
+  - LetsGetThisPartyStarted-Start-6
+  - LetsGetThisPartyStarted-Start-7
+  - LetsGetThisPartyStarted-Start-8
+  - LetsGetThisPartyStarted-Start-9
+  - LetsGetThisPartyStarted-Start-10
+  - LetsGetThisPartyStarted-Start-11
+  - LetsGetThisPartyStarted-Start-12
+  - LetsGetThisPartyStarted-Start-13
+  - LetsGetThisPartyStarted-Start-14
+  - LetsGetThisPartyStarted-Start-15
+  - LetsGetThisPartyStarted-Start-16
+  - LetsGetThisPartyStarted-Start-17
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e6c2b2422e52d4945b401a8f18d7176e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs: []
+  compilationStatus: 1
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: "Error on line 35 at position 15:\nmismatched input ']'
+    expecting FORMAT_FUNCTION_EXPRESSION_START\r\nGhost: I do [b]not[/b] want a gang
+    of rowdy teenagers in this house!\r\n              ^"
+  baseLanguage: {instanceID: 0}
+  localizations: []
