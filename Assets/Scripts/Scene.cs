@@ -11,7 +11,13 @@ public class Scene : MonoBehaviour
     public YarnProgram scriptBaseline;
     public YarnProgram scriptInteraction;
 
-    public bool usingNodes;
+    public string charToPossess;
+
+    public bool possessAvery;
+    public bool possessShaun;
+    public bool possessTracy;
+    public bool possessPreston;
+    public bool possessLuigi;
 
     DialogueRunner dialogueRunner;
 
@@ -38,20 +44,45 @@ public class Scene : MonoBehaviour
         
     }
 
+/*
+    Variable names:
+    isShaunPossessed
+    isAveryPossessed
+    isPrestonPossessed
+    isLuigiPossessed
+    haunted
+    isShaunScared
+    isAveryScared
+    isTracyScared
+    isPrestonScared
+*/
+
     public void possess() {
 
 
         //set the yarn haunted variable to true
         variableStorage.SetValue("haunted", true);
-        
+
+        if(possessShaun) {
+            variableStorage.SetValue("isShaunPossessed", true);
+        } else if(possessAvery) {
+            variableStorage.SetValue("isAveryPossessed", true);
+        } else if(possessPreston) {
+            variableStorage.SetValue("isPrestonPossessed", true);
+        } else if(possessTracy) {
+            variableStorage.SetValue("isTracyPossessed", true);
+        } else if(possessLuigi) {
+            variableStorage.SetValue("isLuigiPossessed", true);
+        }
         
         //if this is a longer script, we need to translate what node it's on. 
+        /*
         if(usingNodes) {
             string nodename = dialogueRunner.Dialogue.currentNode;
             dialogueRunner.Add(scriptInteraction);
             dialogueRunner.StartDialogue(nodename); //TODO naming convention 
         }
-
+        */
 
         /*
 
