@@ -1,11 +1,10 @@
 title: HatchetFaceHarry.Start
 tags: 
 colorID: 0
-position: -307,-1283
+position: -311,-1281
 ---
 Shaun: Ok, so, scary stories.
 Avery: Yep, scary stories.
-<<set $isAveryPossessed to 1>>
 <<if $isShaunPossessed is 1>>
     [[Shaun: Well, I do know one...|HFHShaunPossessed]]
 <<elseif $isAveryPossessed is 1>>
@@ -15,12 +14,22 @@ Shaun: So I know this one-
 Avery: Yeah?
 Shaun: Hatchet-Face Harry.
 Avery: Hatchet-Face Harry?
+<<if $isShaunPossessed is 1>>
+    [[Shaun: Oh, yes. This was all a long time ago.|HFHShaunPossessed2]]
+<<elseif $isAveryPossessed is 1>>
+    [[Avery: Oh, yes. This was all a long time ago.|HFHAveryPossessed2]]
+<<endif>>
 Shaun: Hatchet-Face Harry. On the shores of...uh...what's this lake called?
 Avery: Hell if I know.
 Shaun: Right, well, on the shores of whatever this lake is, there was a group of campers.
 Avery: Like, hiking the Appalachian Trail?
 Shaun: No, like, children. Will you let me finish?
 Avery: Yeah, yeah, sorry dude.
+<<if $isShaunPossessed is 1>>
+    [[Shaun: But the children are not the real story here...|HFHShaunPossessed3]]
+<<elseif $isAveryPossessed is 1>>
+    [[Avery: But the children are not the real story here...|HFHAveryPossessed3]]
+<<endif>>
 Shaun: No worries. So, like, these campers, they decided to go swimming.
 Shaun: And, like, it was the middle of the night, so they snuck out of the camp-
 Avery: Wait, why did they go swimming in the middle of the night?
@@ -53,8 +62,9 @@ Avery: Nah, man. I'm good. I'd like to hear your dad tell it sometime, though.
 title: HFHShaunPossessed
 tags: 
 colorID: 0
-position: -73,-1043
+position: -49,-1157
 ---
+Shaun: Well, I do know one...
 ->Shaun:There are places in what is now called the state of Massachusetts where the hills are woody and wild, far too ancient for mortal comprehension.
     Shaun: The year was 1927, and Camp Avoda had just openned its gates.
 ->Shaun: People say this is a young country, but, in truth, the land itself is older and more filled with secrets than anyone can comprehend.
@@ -130,7 +140,7 @@ Shaun: Some say he remains at that camp to this day.
 title: HFHAveryPossessed
 tags: 
 colorID: 0
-position: -56,-1448
+position: -56,-1371
 ---
 ->Avery:There are places in what is now called the state of Massachusetts where the hills are woody and wild, far too ancient for mortal comprehension.
     Avery: The year was 1927, and Camp Avoda had just openned its gates.
@@ -207,7 +217,7 @@ Avery: Some say he remains at that camp to this day.
 title: HFHScaryEnding
 tags: 
 colorID: 0
-position: 207,-1272
+position: 214,-1279
 ---
 Avery: What the hell!?
 Shaun: What the hell was that?
@@ -225,4 +235,312 @@ Avery: Got it.
 <<set $isShaunScared to 1>>
 <<set $isAveryScared to 1>>
 <<set $haunted to 0>>
+===
+title: HFHShaunPossessed2
+tags: 
+colorID: 0
+position: -50,-939
+---
+->Shaun:There are places in what is now called the state of Massachusetts where the hills are woody and wild, far too ancient for mortal comprehension.
+    Shaun: The year was 1927, and Camp Avoda had just openned its gates.
+->Shaun: People say this is a young country, but, in truth, the land itself is older and more filled with secrets than anyone can comprehend.
+    Shaun: The year was 1927, and Camp Avoda had just openned its gates.
+->Shaun: Old Cape Cod holds her secrets close, and buries her dead beneath briny rock and sea.
+    Shaun: The year was 1927, and Camp Avoda had just openned its gates.
+Shaun: Ahead of the campers lay a summer full of sailing, camping, canoeing, sports, and community.
+->Shaun: But not all was as it seemed.
+    Shaun: For on those idyllic grounds, a murderer lay in wait.
+->Shaun: Little did they know, tragedy lay in store.
+    Shaun: For on those idyllic grounds, a murderer lay in wait.
+->Shaun: Unfortunately, not all would return from that summer.
+    Shaun: For on those idyllic grounds, a murderer lay in wait.
+Shaun: In the previous year, a number of laborers had been employed to clear the campgrounds.
+Shaun: They took those ancient woods with axes and hatchets, clearing the way for the structures that would form the camp.
+Shaun: And among them was a man named Harold.
+->Shaun: Harold was an ugly man, covered crown-to-toe in coarse, dark hair.
+    Shaun: And they came to call him 'Harry'.
+->Shaun: Harold was a hate-filled man, ugly inside and out.
+    Shaun: And they came to call him 'Harry'.
+->Shaun: Everyone on the camp despised Harold, though they could not say for certain why.
+    Shaun: And they came to call him 'Harry'.
+Shaun: Harry was a cruel man.
+->Shaun: He swung his hatchet expertly at man and lumber alike.
+    Shaun: And soon, everyone else began avoiding Harry.
+->Shaun: He would attack the lumber with such a brute force and anger that the other workers avoided him.
+    Shaun: And soon, everyone else began avoiding Harry.
+->Shaun: He always seemed on the verge of attacking those around him.
+    Shaun: And soon, everyone else began avoiding Harry.
+Shaun: One night, as the workers were eating their meager dinner, they heard a bloodcurdling and inhuman scream from the lake.
+Shaun: And as they ran outside, they saw Harry standing at the shore with his hatchet.
+->Shaun: At his feet, there was...something terrible. They could not be  sure of what it was, but they knew it had once been alive.
+    Shaun: Horrified, the  men chased Harry into the woods.
+->Shaun: At his feet lay the corpse of the beloved stray dog that lived with the workers, its head split in half by a hatchet blow.
+    Shaun: Horrified, the  men chased Harry into the woods.
+->Shaun: At his feet, lay the corpse of a fellow worker who had argued with him  earlier that day, decapitated and with his limbs hacked apart by Harry's cruel blows.
+    Shaun: Horrified, the  men chased Harry into the woods.
+Shaun: They hacked him apart into little pieces, striking blow after blow on his face until he was unrecognizable.
+Shaun: Later, when the first group of boys came to spend their summer at Camp Avoda, they knew nothing of Harry or his demise.
+Shaun: And so, they had no fear of ancient land and the sorts of ghosts and demons it can house.
+Shaun: One night, a certain group of boys decided to go swimming.
+Shaun: They were young, and reckless, and were at that age they believed themselves immortal.
+->Shaun: That night there was a full moon, and the lake was oddly bright in the midnight hour.
+    Shaun: And the boys swam, heedless of any peril.
+->Shaun: The moon that night was covered by clouds, and the darkness was thick enough that one could almost touch it.
+    Shaun: And the boys swam, heedless of any peril.
+->Shaun: It was a new moon that night, and the hole of darkness it made in the stars hung eerily over the lake.
+    Shaun: And the boys swam, heedless of any peril.
+Shaun: When they finished their swim, they clambered ashore and gathered their things.
+Shaun: But three were missing from their number.
+Shaun: And they heard a blood-curdling scream.
+Shaun: As they tried to place the location, the scream was gut off with a sickening gurgle, a sound like choking on bile and blood.
+Shaun: And the smell that rose from the lake itself was beyond describing.
+Shaun: One of the boys still had his toes in the water, and lept back in horror as the lake became warm and ran with blood.
+Shaun: And one of the boys pointed out towards the lake with a trembling finger.
+Shaun: And they all saw him, standing on the lake's surface, holding the severed heads of three boys by the hair.
+->Shaun: He was tall, gaunt, with limbs carelessly sewn together.
+    Shaun: And his face...
+->Shaun: He was short and stocky, all muscle and bone and sinew without skin.
+    Shaun: And his face...
+->Shaun: He was only vaguely human - incompletely assembled from spare parts of what had once been animal and man.
+    Shaun: And his face...
+Shaun: His face was indescribable. Hacked apart, barely recognizable as a face. There were depressions where once had clearly been features, as if some mad sculptor had attempted to carve a man with a hatchet, but what he once had looked like was impossible to say.
+Shaun: The boys ran screaming back to their cabins, waking the camp.
+Shaun: But when the counselors went to the lake to check, they saw only the reflection of the night sky upon the clear water's surface.
+Shaun: And the missing boys? Their names vanished from the camp register. As if they had never existed.
+Shaun: But the boys who saw told stories, and those stories were passed down.
+Shaun: And like Harry, they were twisted and hacked apart, until the forgotten monster was known only in legend as Hatchet-Face Harry.
+Shaun: Some say he remains at that camp to this day.
+<<set $isShaunPossessed to 0>>
+[[Avery: ...what the hell?|HFHScaryEnding]]
+===
+title: HFHAveryPossessed2
+tags: 
+colorID: 0
+position: -58,-1578
+---
+->Avery:There are places in what is now called the state of Massachusetts where the hills are woody and wild, far too ancient for mortal comprehension.
+    Avery: The year was 1927, and Camp Avoda had just openned its gates.
+->Avery: People say this is a young country, but, in truth, the land itself is older and more filled with secrets than anyone can comprehend.
+    Avery: The year was 1927, and Camp Avoda had just openned its gates.
+->Avery: Old Cape Cod holds her secrets close, and buries her dead beneath briny rock and sea.
+    Avery: The year was 1927, and Camp Avoda had just openned its gates.
+Avery: Ahead of the campers lay a summer full of sailing, camping, canoeing, sports, and community.
+->Avery: But not all was as it seemed.
+    Avery: For on those idyllic grounds, a murderer lay in wait.
+->Avery: Little did they know, tragedy lay in store.
+    Avery: For on those idyllic grounds, a murderer lay in wait.
+->Avery: Unfortunately, not all would return from that summer.
+    Avery: For on those idyllic grounds, a murderer lay in wait.
+Avery: In the previous year, a number of laborers had been employed to clear the campgrounds.
+Avery: They took those ancient woods with axes and hatchets, clearing the way for the structures that would form the camp.
+Avery: And among them was a man named Harold.
+->Avery: Harold was an ugly man, covered crown-to-toe in coarse, dark hair.
+    Avery: And they came to call him 'Harry'.
+->Avery: Harold was a hate-filled man, ugly inside and out.
+    Avery: And they came to call him 'Harry'.
+->Avery: Everyone on the camp despised Harold, though they could not say for certain why.
+    Avery: And they came to call him 'Harry'.
+Avery: Harry was a cruel man.
+->Avery: He swung his hatchet expertly at man and lumber alike.
+    Avery: And soon, everyone else began avoiding Harry.
+->Avery: He would attack the lumber with such a brute force and anger that the other workers avoided him.
+    Avery: And soon, everyone else began avoiding Harry.
+->Avery: He always seemed on the verge of attacking those around him.
+    Avery: And soon, everyone else began avoiding Harry.
+Avery: One night, as the workers were eating their meager dinner, they heard a bloodcurdling and inhuman scream from the lake.
+Avery: And as they ran outside, they saw Harry standing at the shore with his hatchet.
+->Avery: At his feet, there was...something terrible. They could not be  sure of what it was, but they knew it had once been alive.
+    Avery: Horrified, the  men chased Harry into the woods.
+->Avery: At his feet lay the corpse of the beloved stray dog that lived with the workers, its head split in half by a hatchet blow.
+    Avery: Horrified, the  men chased Harry into the woods.
+->Avery: At his feet, lay the corpse of a fellow worker who had argued with him  earlier that day, decapitated and with his limbs hacked apart by Harry's cruel blows.
+    Avery: Horrified, the  men chased Harry into the woods.
+Avery: They hacked him apart into little pieces, striking blow after blow on his face until he was unrecognizable.
+Avery: Later, when the first group of boys came to spend their summer at Camp Avoda, they knew nothing of Harry or his demise.
+Avery: And so, they had no fear of ancient land and the sorts of ghosts and demons it can house.
+Avery: One night, a certain group of boys decided to go swimming.
+Avery: They were young, and reckless, and were at that age they believed themselves immortal.
+->Avery: That night there was a full moon, and the lake was oddly bright in the midnight hour.
+    Avery: And the boys swam, heedless of any peril.
+->Avery: The moon that night was covered by clouds, and the darkness was thick enough that one could almost touch it.
+    Avery: And the boys swam, heedless of any peril.
+->Avery: It was a new moon that night, and the hole of darkness it made in the stars hung eerily over the lake.
+    Avery: And the boys swam, heedless of any peril.
+Avery: When they finished their swim, they clambered ashore and gathered their things.
+Avery: But three were missing from their number.
+Avery: And they heard a blood-curdling scream.
+Avery: As they tried to place the location, the scream was gut off with a sickening gurgle, a sound like choking on bile and blood.
+Avery: And the smell that rose from the lake itself was beyond describing.
+Avery: One of the boys still had his toes in the water, and lept back in horror as the lake became warm and ran with blood.
+Avery: And one of the boys pointed out towards the lake with a trembling finger.
+Avery: And they all saw him, standing on the lake's surface, holding the severed heads of three boys by the hair.
+->Avery: He was tall, gaunt, with limbs carelessly sewn together.
+    Avery: And his face...
+->Avery: He was short and stocky, all muscle and bone and sinew without skin.
+    Avery: And his face...
+->Avery: He was only vaguely human - incompletely assembled from spare parts of what had once been animal and man.
+    Avery: And his face...
+Avery: His face was indescribable. Hacked apart, barely recognizable as a face. There were depressions where once had clearly been features, as if some mad sculptor had attempted to carve a man with a hatchet, but what he once had looked like was impossible to say.
+Avery: The boys ran screaming back to their cabins, waking the camp.
+Avery: But when the counselors went to the lake to check, they saw only the reflection of the night sky upon the clear water's surface.
+Avery: And the missing boys? Their names vanished from the camp register. As if they had never existed.
+Avery: But the boys who saw told stories, and those stories were passed down.
+Avery: And like Harry, they were twisted and hacked apart, until the forgotten monster was known only in legend as Hatchet-Face Harry.
+Avery: Some say he remains at that camp to this day.
+<<set $isAveryPossessed to 0>>
+[[Shaun: ...what the hell?|HFHScaryEnding]]
+===
+title: HFHShaunPossessed3
+tags: 
+colorID: 0
+position: -47,-724
+---
+->Shaun:There are places in what is now called the state of Massachusetts where the hills are woody and wild, far too ancient for mortal comprehension.
+    Shaun: The year was 1927, and Camp Avoda had just openned its gates.
+->Shaun: People say this is a young country, but, in truth, the land itself is older and more filled with secrets than anyone can comprehend.
+    Shaun: The year was 1927, and Camp Avoda had just openned its gates.
+->Shaun: Old Cape Cod holds her secrets close, and buries her dead beneath briny rock and sea.
+    Shaun: The year was 1927, and Camp Avoda had just openned its gates.
+Shaun: Ahead of the campers lay a summer full of sailing, camping, canoeing, sports, and community.
+->Shaun: But not all was as it seemed.
+    Shaun: For on those idyllic grounds, a murderer lay in wait.
+->Shaun: Little did they know, tragedy lay in store.
+    Shaun: For on those idyllic grounds, a murderer lay in wait.
+->Shaun: Unfortunately, not all would return from that summer.
+    Shaun: For on those idyllic grounds, a murderer lay in wait.
+Shaun: In the previous year, a number of laborers had been employed to clear the campgrounds.
+Shaun: They took those ancient woods with axes and hatchets, clearing the way for the structures that would form the camp.
+Shaun: And among them was a man named Harold.
+->Shaun: Harold was an ugly man, covered crown-to-toe in coarse, dark hair.
+    Shaun: And they came to call him 'Harry'.
+->Shaun: Harold was a hate-filled man, ugly inside and out.
+    Shaun: And they came to call him 'Harry'.
+->Shaun: Everyone on the camp despised Harold, though they could not say for certain why.
+    Shaun: And they came to call him 'Harry'.
+Shaun: Harry was a cruel man.
+->Shaun: He swung his hatchet expertly at man and lumber alike.
+    Shaun: And soon, everyone else began avoiding Harry.
+->Shaun: He would attack the lumber with such a brute force and anger that the other workers avoided him.
+    Shaun: And soon, everyone else began avoiding Harry.
+->Shaun: He always seemed on the verge of attacking those around him.
+    Shaun: And soon, everyone else began avoiding Harry.
+Shaun: One night, as the workers were eating their meager dinner, they heard a bloodcurdling and inhuman scream from the lake.
+Shaun: And as they ran outside, they saw Harry standing at the shore with his hatchet.
+->Shaun: At his feet, there was...something terrible. They could not be  sure of what it was, but they knew it had once been alive.
+    Shaun: Horrified, the  men chased Harry into the woods.
+->Shaun: At his feet lay the corpse of the beloved stray dog that lived with the workers, its head split in half by a hatchet blow.
+    Shaun: Horrified, the  men chased Harry into the woods.
+->Shaun: At his feet, lay the corpse of a fellow worker who had argued with him  earlier that day, decapitated and with his limbs hacked apart by Harry's cruel blows.
+    Shaun: Horrified, the  men chased Harry into the woods.
+Shaun: They hacked him apart into little pieces, striking blow after blow on his face until he was unrecognizable.
+Shaun: Later, when the first group of boys came to spend their summer at Camp Avoda, they knew nothing of Harry or his demise.
+Shaun: And so, they had no fear of ancient land and the sorts of ghosts and demons it can house.
+Shaun: One night, a certain group of boys decided to go swimming.
+Shaun: They were young, and reckless, and were at that age they believed themselves immortal.
+->Shaun: That night there was a full moon, and the lake was oddly bright in the midnight hour.
+    Shaun: And the boys swam, heedless of any peril.
+->Shaun: The moon that night was covered by clouds, and the darkness was thick enough that one could almost touch it.
+    Shaun: And the boys swam, heedless of any peril.
+->Shaun: It was a new moon that night, and the hole of darkness it made in the stars hung eerily over the lake.
+    Shaun: And the boys swam, heedless of any peril.
+Shaun: When they finished their swim, they clambered ashore and gathered their things.
+Shaun: But three were missing from their number.
+Shaun: And they heard a blood-curdling scream.
+Shaun: As they tried to place the location, the scream was gut off with a sickening gurgle, a sound like choking on bile and blood.
+Shaun: And the smell that rose from the lake itself was beyond describing.
+Shaun: One of the boys still had his toes in the water, and lept back in horror as the lake became warm and ran with blood.
+Shaun: And one of the boys pointed out towards the lake with a trembling finger.
+Shaun: And they all saw him, standing on the lake's surface, holding the severed heads of three boys by the hair.
+->Shaun: He was tall, gaunt, with limbs carelessly sewn together.
+    Shaun: And his face...
+->Shaun: He was short and stocky, all muscle and bone and sinew without skin.
+    Shaun: And his face...
+->Shaun: He was only vaguely human - incompletely assembled from spare parts of what had once been animal and man.
+    Shaun: And his face...
+Shaun: His face was indescribable. Hacked apart, barely recognizable as a face. There were depressions where once had clearly been features, as if some mad sculptor had attempted to carve a man with a hatchet, but what he once had looked like was impossible to say.
+Shaun: The boys ran screaming back to their cabins, waking the camp.
+Shaun: But when the counselors went to the lake to check, they saw only the reflection of the night sky upon the clear water's surface.
+Shaun: And the missing boys? Their names vanished from the camp register. As if they had never existed.
+Shaun: But the boys who saw told stories, and those stories were passed down.
+Shaun: And like Harry, they were twisted and hacked apart, until the forgotten monster was known only in legend as Hatchet-Face Harry.
+Shaun: Some say he remains at that camp to this day.
+<<set $isShaunPossessed to 0>>
+[[Avery: ...what the hell?|HFHScaryEnding]]
+===
+title: HFHAveryPossessed3
+tags: 
+colorID: 0
+position: -59,-1786
+---
+->Avery:There are places in what is now called the state of Massachusetts where the hills are woody and wild, far too ancient for mortal comprehension.
+    Avery: The year was 1927, and Camp Avoda had just openned its gates.
+->Avery: People say this is a young country, but, in truth, the land itself is older and more filled with secrets than anyone can comprehend.
+    Avery: The year was 1927, and Camp Avoda had just openned its gates.
+->Avery: Old Cape Cod holds her secrets close, and buries her dead beneath briny rock and sea.
+    Avery: The year was 1927, and Camp Avoda had just openned its gates.
+Avery: Ahead of the campers lay a summer full of sailing, camping, canoeing, sports, and community.
+->Avery: But not all was as it seemed.
+    Avery: For on those idyllic grounds, a murderer lay in wait.
+->Avery: Little did they know, tragedy lay in store.
+    Avery: For on those idyllic grounds, a murderer lay in wait.
+->Avery: Unfortunately, not all would return from that summer.
+    Avery: For on those idyllic grounds, a murderer lay in wait.
+Avery: In the previous year, a number of laborers had been employed to clear the campgrounds.
+Avery: They took those ancient woods with axes and hatchets, clearing the way for the structures that would form the camp.
+Avery: And among them was a man named Harold.
+->Avery: Harold was an ugly man, covered crown-to-toe in coarse, dark hair.
+    Avery: And they came to call him 'Harry'.
+->Avery: Harold was a hate-filled man, ugly inside and out.
+    Avery: And they came to call him 'Harry'.
+->Avery: Everyone on the camp despised Harold, though they could not say for certain why.
+    Avery: And they came to call him 'Harry'.
+Avery: Harry was a cruel man.
+->Avery: He swung his hatchet expertly at man and lumber alike.
+    Avery: And soon, everyone else began avoiding Harry.
+->Avery: He would attack the lumber with such a brute force and anger that the other workers avoided him.
+    Avery: And soon, everyone else began avoiding Harry.
+->Avery: He always seemed on the verge of attacking those around him.
+    Avery: And soon, everyone else began avoiding Harry.
+Avery: One night, as the workers were eating their meager dinner, they heard a bloodcurdling and inhuman scream from the lake.
+Avery: And as they ran outside, they saw Harry standing at the shore with his hatchet.
+->Avery: At his feet, there was...something terrible. They could not be  sure of what it was, but they knew it had once been alive.
+    Avery: Horrified, the  men chased Harry into the woods.
+->Avery: At his feet lay the corpse of the beloved stray dog that lived with the workers, its head split in half by a hatchet blow.
+    Avery: Horrified, the  men chased Harry into the woods.
+->Avery: At his feet, lay the corpse of a fellow worker who had argued with him  earlier that day, decapitated and with his limbs hacked apart by Harry's cruel blows.
+    Avery: Horrified, the  men chased Harry into the woods.
+Avery: They hacked him apart into little pieces, striking blow after blow on his face until he was unrecognizable.
+Avery: Later, when the first group of boys came to spend their summer at Camp Avoda, they knew nothing of Harry or his demise.
+Avery: And so, they had no fear of ancient land and the sorts of ghosts and demons it can house.
+Avery: One night, a certain group of boys decided to go swimming.
+Avery: They were young, and reckless, and were at that age they believed themselves immortal.
+->Avery: That night there was a full moon, and the lake was oddly bright in the midnight hour.
+    Avery: And the boys swam, heedless of any peril.
+->Avery: The moon that night was covered by clouds, and the darkness was thick enough that one could almost touch it.
+    Avery: And the boys swam, heedless of any peril.
+->Avery: It was a new moon that night, and the hole of darkness it made in the stars hung eerily over the lake.
+    Avery: And the boys swam, heedless of any peril.
+Avery: When they finished their swim, they clambered ashore and gathered their things.
+Avery: But three were missing from their number.
+Avery: And they heard a blood-curdling scream.
+Avery: As they tried to place the location, the scream was gut off with a sickening gurgle, a sound like choking on bile and blood.
+Avery: And the smell that rose from the lake itself was beyond describing.
+Avery: One of the boys still had his toes in the water, and lept back in horror as the lake became warm and ran with blood.
+Avery: And one of the boys pointed out towards the lake with a trembling finger.
+Avery: And they all saw him, standing on the lake's surface, holding the severed heads of three boys by the hair.
+->Avery: He was tall, gaunt, with limbs carelessly sewn together.
+    Avery: And his face...
+->Avery: He was short and stocky, all muscle and bone and sinew without skin.
+    Avery: And his face...
+->Avery: He was only vaguely human - incompletely assembled from spare parts of what had once been animal and man.
+    Avery: And his face...
+Avery: His face was indescribable. Hacked apart, barely recognizable as a face. There were depressions where once had clearly been features, as if some mad sculptor had attempted to carve a man with a hatchet, but what he once had looked like was impossible to say.
+Avery: The boys ran screaming back to their cabins, waking the camp.
+Avery: But when the counselors went to the lake to check, they saw only the reflection of the night sky upon the clear water's surface.
+Avery: And the missing boys? Their names vanished from the camp register. As if they had never existed.
+Avery: But the boys who saw told stories, and those stories were passed down.
+Avery: And like Harry, they were twisted and hacked apart, until the forgotten monster was known only in legend as Hatchet-Face Harry.
+Avery: Some say he remains at that camp to this day.
+<<set $isAveryPossessed to 0>>
+[[Shaun: ...what the hell?|HFHScaryEnding]]
 ===
