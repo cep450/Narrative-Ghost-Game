@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Yarn.Unity {
 public class Interact : MonoBehaviour
 {
 
@@ -16,24 +17,26 @@ public class Interact : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E)) {
-                
-            //make something happen 
-
-        }
-
+        
     }
 
     void OnTriggerEnter2D() {
         
-        Debug.Log("got here");
-
         myE.enabled = true;
     }
 
-    void OnTriggerStay2D() {
-        if(Input.GetKeyDown(KeyCode.E)) {
-            myE.enabled = false;
+    void OnTriggerStay2D(Collider2D other) {
+
+        //if can interact, and presses E 
+        if(Input.GetKeyDown(KeyCode.E) && myE.enabled) {
+
+            Scene sceneOverlapping = other.gameObject.GetComponent<Scene>() as Scene;
+                
+            //if overlapping w/ a scene, possess in that scene 
+            if(sceneOverlapping != null) {
+                sceneOverlapping.possess();
+                myE.enabled = false; 
+            }
 
         }
 
@@ -43,4 +46,5 @@ public class Interact : MonoBehaviour
         
         myE.enabled = false;
     }
+}
 }

@@ -1,0 +1,48 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+//namespace Yarn.Unity {
+public class SceneController : MonoBehaviour
+{
+
+    //makes stuff happen at the right times. 
+    //enables Scenes ie starting them up. 
+
+
+    public GameObject sc_intro; 
+    public GameObject sc_puffball;
+    //ect for scenes 
+
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        //just temporary. this would happen at some certain point 
+        StartCoroutine(intro());
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+
+    }
+
+    IEnumerator intro() {
+
+        float sec = 5;
+        for (float counter = 0; counter < sec; counter += Time.deltaTime)
+        {
+            yield return null;
+        }
+        sc_intro.SetActive(true);
+    }
+
+    //private IEnumerator TimedScene(Scene scene) {
+
+    //}
+}
+//}
