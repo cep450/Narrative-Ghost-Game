@@ -10,37 +10,37 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
   stringIDs:
-  - CookingThePuffball-Start-0
-  - CookingThePuffball-Start-1
-  - CookingThePuffball-Start-2
-  - CookingThePuffball-Start-3
-  - CookingThePuffball-Start-4
-  - CookingThePuffball-Start-5
-  - CookingThePuffball-Start-6
-  - CookingThePuffball-Start-7
-  - CookingThePuffball-Start-8
-  - CookingThePuffball-Start-9
-  - CookingThePuffball-Start-10
-  - CookingThePuffball-Start-11
-  - CookingThePuffball-Start-12
-  - CookingThePuffball-Start-13
-  - CookingThePuffball-Start-14
-  - CookingThePuffball-Start-15
-  - CookingThePuffball-Start-16
-  - CookingThePuffball-Start-17
-  - CookingThePuffball-Start-18
-  - CookingThePuffball-Start-19
-  - CookingThePuffball-Start-20
-  - CookingThePuffball-Start-21
-  - CookingThePuffball-Start-22
-  - CookingThePuffball-Start-23
-  - CookingThePuffball-Start-24
-  - CookingThePuffball-Start-25
-  - CookingThePuffball-Start-26
-  - CookingThePuffball-Start-27
-  - CookingThePuffball-Start-28
+  - CookingThePuffball-CookingThePuffball.Haunted-0
+  - CookingThePuffball-CookingThePuffball.Haunted-1
+  - CookingThePuffball-CookingThePuffball.Haunted-2
+  - CookingThePuffball-CookingThePuffball.Haunted-3
+  - CookingThePuffball-CookingThePuffball.Haunted-4
+  - CookingThePuffball-CookingThePuffball.Haunted-5
+  - CookingThePuffball-CookingThePuffball.Haunted-6
+  - CookingThePuffball-CookingThePuffball.Haunted-7
+  - CookingThePuffball-CookingThePuffball.Haunted-8
+  - CookingThePuffball-CookingThePuffball.Haunted-9
+  - CookingThePuffball-CookingThePuffball.Haunted-10
+  - CookingThePuffball-CookingThePuffball.Haunted-11
+  - CookingThePuffball-CookingThePuffball.Haunted-12
+  - CookingThePuffball-CookingThePuffball.Haunted-13
+  - CookingThePuffball-CookingThePuffball.Haunted-14
+  - CookingThePuffball-CookingThePuffball.Haunted-15
+  - CookingThePuffball-CookingThePuffball.Haunted-16
+  - CookingThePuffball-CookingThePuffball.Haunted-17
+  - CookingThePuffball-CookingThePuffball.Haunted-18
+  - CookingThePuffball-CookingThePuffball.Haunted-19
+  - CookingThePuffball-CookingThePuffball.Haunted-20
+  - CookingThePuffball-CookingThePuffball.Haunted-21
+  - CookingThePuffball-CookingThePuffball.Haunted-22
+  - CookingThePuffball-CookingThePuffball.Haunted-23
+  - CookingThePuffball-CookingThePuffball.Haunted-24
+  - CookingThePuffball-CookingThePuffball.Haunted-25
+  - CookingThePuffball-CookingThePuffball.Haunted-26
+  - CookingThePuffball-CookingThePuffball.Haunted-27
+  - CookingThePuffball-CookingThePuffball.Haunted-28
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: d7ea201ee7f24d741bad00fff8b8da74, type: 3}
   localizations: []

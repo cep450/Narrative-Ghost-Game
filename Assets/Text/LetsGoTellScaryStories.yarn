@@ -1,10 +1,22 @@
-title: Start
+title: LetsGoTellScaryStories
 tags: 
 colorID: 0
-position: 16,-723
+position: 14,-723
 ---
-Avery: Hey, Shaun, want to go down to the lake?
-Shaun: Brah, I was just down there.
-Avery: Yeah, but now we'll be down there with beers, telling scary stories.
-Shaun: Hell yeah. I'm in.
+Avery: Yo, what's going on?
+<<if $isTracyScared is 0>>
+    Avery: Hey, Shaun, want to go down to the lake?
+    Shaun: Brah, I was just down there.
+    Avery: Yeah, but now we'll be down there with beers, telling scary stories.
+    Shaun: Hell yeah. I'm in.
+<<elseif $isTracyScared is 1>>
+    Avery: I heard Tracy scream. What's going on?
+    Luigi: What the hell, Shaun, you know how easily she gets startled!
+    Avery: Wait, that's all it took? Boo?
+    Luigi: This isn't funny, Avery.
+    Shaun: I have no idea why I did that, honest!
+    Avery: Yeah, yeah. Look, dude, how about we go down to the lake. Tell some scary stories.
+    Shaun: Are you sure?
+    Avery: Of course! There's no way you'll be able to scare me.
+<<endif>>
 ===

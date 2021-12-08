@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
   stringIDs:
-  - LetsGoTellScaryStories-Start-0
-  - LetsGoTellScaryStories-Start-1
-  - LetsGoTellScaryStories-Start-2
-  - LetsGoTellScaryStories-Start-3
-  - LetsGoTellScaryStories-Start-4
-  - LetsGoTellScaryStories-Start-5
-  - LetsGoTellScaryStories-Start-6
-  - LetsGoTellScaryStories-Start-7
+  - LetsGoTellScaryStories-LetsGoTellScaryStories.Haunted-0
+  - LetsGoTellScaryStories-LetsGoTellScaryStories.Haunted-1
+  - LetsGoTellScaryStories-LetsGoTellScaryStories.Haunted-2
+  - LetsGoTellScaryStories-LetsGoTellScaryStories.Haunted-3
+  - LetsGoTellScaryStories-LetsGoTellScaryStories.Haunted-4
+  - LetsGoTellScaryStories-LetsGoTellScaryStories.Haunted-5
+  - LetsGoTellScaryStories-LetsGoTellScaryStories.Haunted-6
+  - LetsGoTellScaryStories-LetsGoTellScaryStories.Haunted-7
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: d3ceec5ae8e7aae4bb6ab39a3a675af8, type: 3}
   localizations: []

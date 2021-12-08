@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
   stringIDs:
-  - CookingThePuffball-Start-0
-  - CookingThePuffball-Start-1
-  - CookingThePuffball-Start-2
-  - CookingThePuffball-Start-3
-  - CookingThePuffball-Start-4
-  - CookingThePuffball-Start-5
-  - CookingThePuffball-Start-6
-  - CookingThePuffball-Start-7
+  - CookingThePuffball-CookingThePuffball.Normal-0
+  - CookingThePuffball-CookingThePuffball.Normal-1
+  - CookingThePuffball-CookingThePuffball.Normal-2
+  - CookingThePuffball-CookingThePuffball.Normal-3
+  - CookingThePuffball-CookingThePuffball.Normal-4
+  - CookingThePuffball-CookingThePuffball.Normal-5
+  - CookingThePuffball-CookingThePuffball.Normal-6
+  - CookingThePuffball-CookingThePuffball.Normal-7
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 5d1b1b967efe90f43a6e49bfb41db5e1, type: 3}
   localizations: []

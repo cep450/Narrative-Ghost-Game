@@ -1,0 +1,100 @@
+fileFormatVersion: 2
+guid: 3282c43c317a98f4aac9dc7f76576f99
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - EndingScene-LetsGetThisPartyStarted-0
+  - EndingScene-LetsGetThisPartyStarted-1
+  - EndingScene-LetsGetThisPartyStarted-2
+  - EndingScene-LetsGetThisPartyStarted-3
+  - EndingScene-LetsGetThisPartyStarted-4
+  - EndingScene-LetsGetThisPartyStarted-5
+  - EndingScene-LetsGetThisPartyStarted-6
+  - EndingScene-LetsGetThisPartyStarted-7
+  - EndingScene-LetsGetThisPartyStarted-8
+  - EndingScene-LetsGetThisPartyStarted-9
+  - EndingScene-LetsGetThisPartyStarted-10
+  - EndingScene-LetsGetThisPartyStarted-11
+  - EndingScene-LetsGetThisPartyStarted-12
+  - EndingScene-LetsGetThisPartyStarted-13
+  - EndingScene-LetsGetThisPartyStarted-14
+  - EndingScene-LetsGetThisPartyStarted-15
+  - EndingScene-LetsGetThisPartyStarted-16
+  - EndingScene-LetsGetThisPartyStarted-17
+  - EndingScene-EndingScene.Start-18
+  - EndingScene-LuigiBoard-19
+  - EndingScene-LuigiBoard-20
+  - EndingScene-LuigiBoard-21
+  - EndingScene-LuigiBoard-22
+  - EndingScene-LuigiBoard-23
+  - EndingScene-LuigiBoard-24
+  - EndingScene-LuigiBoard-25
+  - EndingScene-LuigiBoard-26
+  - EndingScene-LuigiBoard-27
+  - EndingScene-LuigiBoard-28
+  - EndingScene-LuigiBoard-29
+  - EndingScene-LuigiBoard-30
+  - EndingScene-LuigiBoard-31
+  - EndingScene-LuigiBoard-32
+  - EndingScene-LuigiBoard-33
+  - EndingScene-LuigiBoard-34
+  - EndingScene-LuigiBoard-35
+  - EndingScene-LuigiBoard-36
+  - EndingScene-LuigiBoard-37
+  - EndingScene-LuigiBoard-38
+  - EndingScene-LuigiBoard-39
+  - EndingScene-LuigiBoard-40
+  - EndingScene-LuigiBoard-41
+  - EndingScene-LuigiBoard-42
+  - EndingScene-LuigiBoard-43
+  - EndingScene-LuigiBoard-44
+  - EndingScene-LuigiBoard-45
+  - EndingScene-LuigiBoard-46
+  - EndingScene-LuigiBoard-47
+  - EndingScene-LuigiBoard-48
+  - EndingScene-LuigiBoard-49
+  - EndingScene-LuigiBoard-50
+  - EndingScene-LuigiBoard-51
+  - EndingScene-LuigiBoard-52
+  - EndingScene-LuigiBoard-53
+  - EndingScene-LuigiBoard-54
+  - EndingScene-LuigiBoard-55
+  - EndingScene-LuigiBoard-56
+  - EndingScene-LuigiBoard-57
+  - EndingScene-LuigiBoard-58
+  - EndingScene-LuigiBoard-59
+  - EndingScene-LuigiBoard-60
+  - EndingScene-LuigiBoard-61
+  - EndingScene-LuigiBoard-62
+  - EndingScene-LuigiBoard-63
+  - EndingScene-LuigiBoard-64
+  - EndingScene-LuigiBoard-65
+  - EndingScene-LuigiBoard-66
+  - EndingScene-LuigiBoard-67
+  - EndingScene-LuigiBoard-68
+  - EndingScene-LuigiBoard-69
+  - EndingScene-LuigiBoard-70
+  - EndingScene-LuigiBoard-71
+  - EndingScene-LuigiBoard-72
+  - EndingScene-LuigiBoard-73
+  - EndingScene-LuigiBoard-74
+  - EndingScene-LuigiBoard-75
+  - EndingScene-LuigiBoard-76
+  - EndingScene-LuigiBoard-77
+  - EndingScene-LuigiBoard-78
+  - EndingScene-LuigiBoard-79
+  - EndingScene-LuigiBoard-80
+  - EndingScene-LuigiBoard-81
+  - EndingScene-LuigiBoard-82
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
