@@ -10,26 +10,26 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: 
   stringIDs:
-  - LetsGetThisPartyStarted-Start-0
-  - LetsGetThisPartyStarted-Start-1
-  - LetsGetThisPartyStarted-Start-2
-  - LetsGetThisPartyStarted-Start-3
-  - LetsGetThisPartyStarted-Start-4
-  - LetsGetThisPartyStarted-Start-5
-  - LetsGetThisPartyStarted-Start-6
-  - LetsGetThisPartyStarted-Start-7
-  - LetsGetThisPartyStarted-Start-8
-  - LetsGetThisPartyStarted-Start-9
-  - LetsGetThisPartyStarted-Start-10
-  - LetsGetThisPartyStarted-Start-11
-  - LetsGetThisPartyStarted-Start-12
-  - LetsGetThisPartyStarted-Start-13
-  - LetsGetThisPartyStarted-Start-14
-  - LetsGetThisPartyStarted-Start-15
-  - LetsGetThisPartyStarted-Start-16
-  - LetsGetThisPartyStarted-Start-17
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-0
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-1
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-2
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-3
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-4
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-5
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-6
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-7
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-8
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-9
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-10
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-11
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-12
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-13
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-14
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-15
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-16
+  - LetsGetThisPartyStarted-LetsGetThisPartyStarted.Normal-17
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 9adbc6a59a91ae34592a1d8fcdd426dc, type: 3}
   localizations: []
