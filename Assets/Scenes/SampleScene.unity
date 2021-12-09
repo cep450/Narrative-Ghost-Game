@@ -823,6 +823,7 @@ GameObject:
   - component: {fileID: 409936349}
   - component: {fileID: 409936348}
   - component: {fileID: 409936350}
+  - component: {fileID: 409936351}
   m_Layer: 0
   m_Name: DialogueUI
   m_TagString: Untagged
@@ -858,7 +859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueContainer: {fileID: 6000882}
-  textSpeed: 0
+  textSpeed: 0.01
   optionButtons:
   - {fileID: 51134420}
   - {fileID: 1149224417}
@@ -874,7 +875,19 @@ MonoBehaviour:
       m_Calls: []
   onLineFinishDisplaying:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 409936351}
+        m_TargetAssemblyTypeName: Yarn.Unity.LineMover, Assembly-CSharp
+        m_MethodName: startWaitNextLine
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onLineUpdate:
     m_PersistentCalls:
       m_Calls:
@@ -968,6 +981,19 @@ MonoBehaviour:
     value: 0
     type: 0
   debugTextView: {fileID: 0}
+--- !u!114 &409936351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409936346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f599dcd910de14a99d01754c50ccd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueUI: {fileID: 409936348}
 --- !u!1 &445752486
 GameObject:
   m_ObjectHideFlags: 0
