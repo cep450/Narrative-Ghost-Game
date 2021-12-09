@@ -13,6 +13,7 @@ Ghost: It is a small inconvenience, but I suppose it is better than having the p
 Ghost: After all, I never did quite get the hang of possessing objects, so I cannot maintain the house myself.
 Ghost: I suppose it is a small price to pay for a comfortable afterlife. And the family in question is quiet enough.
 Ghost: Yes, the best thing about death is not having to deal with other people anymore.
+<<playSound SoundEffects LuigisCar>>
 Ghost:...hm? Is that family returning?
 Ghost: That doesn't sound like their usual automobile.
 Ghost:...that doesn't look like their usual automobile either.
