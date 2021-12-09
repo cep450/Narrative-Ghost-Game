@@ -574,8 +574,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 644877544}
-  m_RootOrder: 8
+  m_Father: {fileID: 645180361}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -807,8 +807,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 644877544}
-  m_RootOrder: 6
+  m_Father: {fileID: 1950268118}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -964,17 +964,61 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1686864811}
-  - {fileID: 1518420354}
-  - {fileID: 1033308563}
-  - {fileID: 1557016595}
-  - {fileID: 1679583123}
-  - {fileID: 1737808904}
-  - {fileID: 445752487}
-  - {fileID: 1869569525}
-  - {fileID: 377927853}
+  - {fileID: 1655664423}
+  - {fileID: 945297611}
+  - {fileID: 1950268118}
+  - {fileID: 645180361}
   m_Father: {fileID: 298542201}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &645180360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645180361}
+  - component: {fileID: 645180362}
+  m_Layer: 0
+  m_Name: AveryUISwitcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &645180361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645180360}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1869569525}
+  - {fileID: 377927853}
+  m_Father: {fileID: 644877544}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &645180362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645180360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f1218139c32e44b953ef49f8fb9a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myScaredVariableName: isAveryScared
+  normalImg: {fileID: 1869569524}
+  scaredImg: {fileID: 377927852}
 --- !u!1 &799905290
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,6 +1427,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923465860}
   m_CullTransparentMesh: 1
+--- !u!1 &945297610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 945297611}
+  - component: {fileID: 945297612}
+  m_Layer: 0
+  m_Name: TracyUISwitcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &945297611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945297610}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1557016595}
+  - {fileID: 1679583123}
+  m_Father: {fileID: 644877544}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &945297612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945297610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f1218139c32e44b953ef49f8fb9a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myScaredVariableName: isTracyScared
+  normalImg: {fileID: 1557016594}
+  scaredImg: {fileID: 1679583122}
 --- !u!1 &995317274
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,8 +1587,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 644877544}
-  m_RootOrder: 2
+  m_Father: {fileID: 1655664423}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2035,7 +2127,6 @@ GameObject:
   - component: {fileID: 1518420354}
   - component: {fileID: 1518420357}
   - component: {fileID: 1518420356}
-  - component: {fileID: 1518420355}
   m_Layer: 5
   m_Name: PrestonUI
   m_TagString: Untagged
@@ -2054,28 +2145,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 644877544}
-  m_RootOrder: 1
+  m_Father: {fileID: 1655664423}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 150, y: 1178}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1518420355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518420353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1f1218139c32e44b953ef49f8fb9a1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScaredVariableName: isPrestonScared
-  scaredImg: {fileID: 1033308562}
 --- !u!114 &1518420356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2125,7 +2202,6 @@ GameObject:
   - component: {fileID: 1557016595}
   - component: {fileID: 1557016597}
   - component: {fileID: 1557016596}
-  - component: {fileID: 1557016598}
   m_Layer: 5
   m_Name: TracyUI
   m_TagString: Untagged
@@ -2144,8 +2220,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 644877544}
-  m_RootOrder: 3
+  m_Father: {fileID: 945297611}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2190,20 +2266,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557016594}
   m_CullTransparentMesh: 1
---- !u!114 &1557016598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557016594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1f1218139c32e44b953ef49f8fb9a1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScaredVariableName: isTracyScared
-  scaredImg: {fileID: 1679583122}
 --- !u!1 &1607073720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
@@ -2288,6 +2350,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613871971}
   m_CullTransparentMesh: 1
+--- !u!1 &1655664422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655664423}
+  - component: {fileID: 1655664424}
+  m_Layer: 0
+  m_Name: PrestonUISwitcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1655664423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655664422}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1518420354}
+  - {fileID: 1033308563}
+  m_Father: {fileID: 644877544}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1655664424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655664422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f1218139c32e44b953ef49f8fb9a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myScaredVariableName: isPrestonScared
+  normalImg: {fileID: 1518420353}
+  scaredImg: {fileID: 1033308562}
 --- !u!1 &1679583122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,8 +2427,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 644877544}
-  m_RootOrder: 4
+  m_Father: {fileID: 945297611}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2449,7 +2559,6 @@ GameObject:
   - component: {fileID: 1737808904}
   - component: {fileID: 1737808906}
   - component: {fileID: 1737808905}
-  - component: {fileID: 1737808907}
   m_Layer: 5
   m_Name: ShaunUI
   m_TagString: Untagged
@@ -2468,8 +2577,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 644877544}
-  m_RootOrder: 5
+  m_Father: {fileID: 1950268118}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2514,20 +2623,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737808903}
   m_CullTransparentMesh: 1
---- !u!114 &1737808907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737808903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1f1218139c32e44b953ef49f8fb9a1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScaredVariableName: isShaunScared
-  scaredImg: {fileID: 445752486}
 --- !u!1 &1869569524
 GameObject:
   m_ObjectHideFlags: 0
@@ -2539,7 +2634,6 @@ GameObject:
   - component: {fileID: 1869569525}
   - component: {fileID: 1869569527}
   - component: {fileID: 1869569526}
-  - component: {fileID: 1869569528}
   m_Layer: 5
   m_Name: AveryUI
   m_TagString: Untagged
@@ -2558,8 +2652,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 644877544}
-  m_RootOrder: 7
+  m_Father: {fileID: 645180361}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2604,20 +2698,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869569524}
   m_CullTransparentMesh: 1
---- !u!114 &1869569528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1869569524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1f1218139c32e44b953ef49f8fb9a1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myScaredVariableName: isAveryScared
-  scaredImg: {fileID: 377927852}
 --- !u!1 &1898083605
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,6 +2781,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1950268117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1950268118}
+  - component: {fileID: 1950268119}
+  m_Layer: 0
+  m_Name: ShaunUISwitcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1950268118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950268117}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1737808904}
+  - {fileID: 445752487}
+  m_Father: {fileID: 644877544}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1950268119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950268117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f1218139c32e44b953ef49f8fb9a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myScaredVariableName: isShaunScared
+  normalImg: {fileID: 1737808903}
+  scaredImg: {fileID: 445752486}
 --- !u!1 &1951463043
 GameObject:
   m_ObjectHideFlags: 0

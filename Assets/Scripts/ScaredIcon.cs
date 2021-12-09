@@ -10,6 +10,7 @@ public class ScaredIcon : MonoBehaviour
     //TODO: update ui sprites when scared variable changes. 
 
     public string myScaredVariableName;
+    public GameObject normalImg;
     public GameObject scaredImg;
         
     InMemoryVariableStorage variableStorage;
@@ -26,6 +27,7 @@ public class ScaredIcon : MonoBehaviour
         if(variableStorage.GetValue(myScaredVariableName).AsBool) {
                 //TODO change ui sprite displayed 
                 scaredImg.SetActive(true);
+                normalImg.SetActive(false);
         }
     }
 }
