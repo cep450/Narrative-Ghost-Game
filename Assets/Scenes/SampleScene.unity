@@ -541,7 +541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: possessPreston
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: scriptBaseline
@@ -1443,6 +1443,14 @@ PrefabInstance:
       value: HatchetFaceHarry.Start
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: possessAvery
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: possessShaun
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: possessPreston
       value: 0
       objectReference: {fileID: 0}
@@ -1987,10 +1995,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 9866527e8d0f698438b3f0addcbd09ff, type: 3}
+  - {fileID: 8300000, guid: 9ca76376ba6ebb44c9e45e8bac205d47, type: 3}
   clipNames:
-  - 
-  source: {fileID: 0}
+  - LuigisCar
+  - Fire
+  source: {fileID: 969843269}
 --- !u!1 &995317274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2696,6 +2706,10 @@ PrefabInstance:
       value: EndingScene.Start
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: possessLuigi
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: possessPreston
       value: 0
       objectReference: {fileID: 0}
@@ -3053,6 +3067,10 @@ PrefabInstance:
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: startNode
       value: InterruptingTheMagicGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: possessShaun
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: possessPreston
