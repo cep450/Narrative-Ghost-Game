@@ -1987,9 +1987,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 9866527e8d0f698438b3f0addcbd09ff, type: 3}
+  - {fileID: 8300000, guid: 9ca76376ba6ebb44c9e45e8bac205d47, type: 3}
   clipNames:
-  - 
+  - LuigisCar
+  - Fire
   source: {fileID: 0}
 --- !u!1 &995317274
 GameObject:
