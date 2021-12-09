@@ -1,7 +1,7 @@
 title: Intro.Normal
 tags: 
 colorID: 0
-position: 365,27
+position: 704,-87
 ---
 Ghost: It's a nice afterlife, here in this  house.
 <<set $isGhostTalking to 1>>
@@ -13,7 +13,6 @@ Ghost: It is a small inconvenience, but I suppose it is better than having the p
 Ghost: After all, I never did quite get the hang of possessing objects, so I cannot maintain the house myself.
 Ghost: I suppose it is a small price to pay for a comfortable afterlife. And the family in question is quiet enough.
 Ghost: Yes, the best thing about death is not having to deal with other people anymore.
-
 Ghost:...hm? Is that family returning?
 Ghost: That doesn't sound like their usual automobile.
 Ghost:...that doesn't look like their usual automobile either.
@@ -40,17 +39,18 @@ Preston: That puffball I found.
 Ghost: I do not want a gang of rowdy teenagers in this house!
 Ghost: I need to get rid of them somehow.
 Tracy: You and your mushrooms. I want to check out the bedrooms!
-Ghost: But how? I can't kill them.
 Preston: I'm going to the basement. I need to check the boiler. Don't want it to overheat.
+Ghost: But how? I can't kill them.
 Ghost: If I do that, then they'll just be stuck here as ghosts forever.
 Shaun: I think I'll go down to the lake, see what's down there.
 Ghost: The last thing I want is roommates.
-Luigi: You mean you're going to light up before the party.
 Ghost: Maybe I can possess them?
-<<set $isShaunPossessed to 1>>
+->Ghost: I should go over to that chap in the beanie and "press E" to possess him.
+    Ghost: Did it work?
+Luigi: You mean you're going to light up before the party.
 ->Shaun: You know it!
     Luigi: Of course you are.
-->Shaun: Of course, my good fellow.
+->Shaun: Of course, my good fellow.<<if $isShaunPossessed is 1>>
     Luigi: What? Why are you talking like that?
 <<set $isShaunPossessed to 0>>
 Ghost: ...did I do that?
