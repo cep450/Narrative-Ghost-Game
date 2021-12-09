@@ -8,16 +8,40 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
-  - CookingThePuffball-CookingThePuffball.Normal-0
-  - CookingThePuffball-CookingThePuffball.Normal-1
-  - CookingThePuffball-CookingThePuffball.Normal-2
-  - CookingThePuffball-CookingThePuffball.Normal-3
-  - CookingThePuffball-CookingThePuffball.Normal-4
-  - CookingThePuffball-CookingThePuffball.Normal-5
-  - CookingThePuffball-CookingThePuffball.Normal-6
-  - CookingThePuffball-CookingThePuffball.Normal-7
+  - CookingThePuffball-CookingThePuffball-0
+  - CookingThePuffball-CookingThePuffball-1
+  - CookingThePuffball-CookingThePuffball-2
+  - CookingThePuffball-CookingThePuffball-3
+  - CookingThePuffball-CookingThePuffball-4
+  - CookingThePuffball-CookingThePuffball-5
+  - CookingThePuffball-CookingThePuffball-6
+  - CookingThePuffball-CookingThePuffball-7
+  - CookingThePuffball-CookingThePuffball-8
+  - CookingThePuffball-CookingThePuffball-9
+  - CookingThePuffball-CookingThePuffball-10
+  - CookingThePuffball-CookingThePuffball-11
+  - CookingThePuffball-CookingThePuffball-12
+  - CookingThePuffball-CookingThePuffball-13
+  - CookingThePuffball-CookingThePuffball-14
+  - CookingThePuffball-CookingThePuffball-15
+  - CookingThePuffball-CookingThePuffball-16
+  - CookingThePuffball-CookingThePuffball-17
+  - CookingThePuffball-CookingThePuffball-18
+  - CookingThePuffball-CookingThePuffball-19
+  - CookingThePuffball-CookingThePuffball-20
+  - CookingThePuffball-CookingThePuffball-21
+  - CookingThePuffball-CookingThePuffball-22
+  - CookingThePuffball-CookingThePuffball-23
+  - CookingThePuffball-CookingThePuffball-24
+  - CookingThePuffball-CookingThePuffball-25
+  - CookingThePuffball-CookingThePuffball-26
+  - CookingThePuffball-CookingThePuffball-27
+  - CookingThePuffball-CookingThePuffball-28
+  - CookingThePuffball-CookingThePuffball-29
+  - CookingThePuffball-CookingThePuffball-30
+  - CookingThePuffball-CookingThePuffball-31
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
