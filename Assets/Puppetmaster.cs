@@ -30,8 +30,7 @@ public class Puppetmaster : MonoBehaviour
     {
         variableStorage = FindObjectOfType<InMemoryVariableStorage>();
 
-        StartCoroutine(AveryTimeline());
-        StartCoroutine(ShaunTimeline());
+        StartCoroutine(StartTimeline());
     }
 
     public void MoveTarget(Character obj, float newSpeed, params float[] newCoords)
@@ -41,18 +40,25 @@ public class Puppetmaster : MonoBehaviour
         obj.coordY = newCoords[1]; 
     }
 
-    public IEnumerator AveryTimeline()
+    bool MoveCheck(Character obj)
+        {
+            return obj.MoveCheck(); 
+        }
+
+    /*public IEnumerator AveryTimeline()
     {
         MoveTarget(Avery, 4, 3, 3);
         yield return new WaitForSeconds(3);
         MoveTarget(Avery, 7, -3, -7);
-    }
+    }*/
 
     public IEnumerator ShaunTimeline()
     {
-        MoveTarget(Shaun, 10, 0, 0);
+        MoveTarget(Shaun, 2, -21, -4);
         yield return new WaitForSeconds(4);
-        MoveTarget(Shaun, 6, 2, 4);
+        MoveTarget(Shaun, 2, -14, -1);
+        yield return new WaitForSeconds(5);
+        MoveTarget(Shaun, 2, -4, -1);
     }
 
    /* public IEnumerator TracyTimeline()
@@ -67,13 +73,25 @@ public class Puppetmaster : MonoBehaviour
         MoveTarget(Avery, 4, 3, 3);
         yield return new WaitForSeconds(3);
         MoveTarget(Avery, 7, -3, -7);
-    }
+    }*/
 
     public IEnumerator LuigiTimeline()
     {
-        MoveTarget(Avery, 4, 3, 3);
-        yield return new WaitForSeconds(3);
-        MoveTarget(Avery, 7, -3, -7);
-    }*/
+        MoveTarget(Luigi, 2, -14, -1);
+        while (MoveCheck(Luigi) == false) {
+                yield return null; 
+            }
+        MoveTarget(Luigi, 2, -2, -1);
+        yield return new WaitForSeconds(6);
+    }
+
+    public IEnumerator StartTimeline()
+        {
+            Coroutine a = StartCoroutine(LuigiTimeline());
+            Coroutine b = StartCoroutine(ShaunTimeline());
+
+            yield return a;
+            yield return b;
+        }
 }
 }
