@@ -3,6 +3,10 @@ tags:
 colorID: 0
 position: 66,-593
 ---
+Shaun: I guess this is the room.
+<<set $isShaunTalking to 1>>
+<<set $isTracyTalking to 1>>
+<<set $isLuigiTalking to 1>>
 ->Shaun: Hey, Tracy? Luigi? You in there?
     Tracy: Oh, hi Shaun! 
     Luigi: Help me, Shaun, she's kicking my ass.
@@ -12,5 +16,8 @@ position: 66,-593
     Tracy: EEEEEK!
     Luigi: Yo, what the hell, Shaun?!
 <<set $isShaunPossessed to 0>>
+<<set $isShaunTalking to 0>>
+<<set $isLuigiTalking to 0>>
+<<set $isTracyTalking to 0>>
 <<set $haunted to 0>>
 ===

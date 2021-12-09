@@ -4,7 +4,11 @@ colorID: 0
 position: 315,-23
 ---
 Luigi: Hey man, don't burn the house down with that.
+<<set $isLuigiTalking to 1>>
+<<set $isPrestonTalking to 1>>
 Preston: ...don't even joke about that.
 Luigi: Woah, calm down, buddy. I'm just joking with you.
 Preston: Fire is not a joke.
+<<set $isLuigiTalking to 0>>
+<<set $isPrestonTalking to 0>>
 ===
