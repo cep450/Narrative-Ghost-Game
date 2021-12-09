@@ -20,7 +20,7 @@ public class SceneController : MonoBehaviour
     void Start()
     {
         //just temporary. this would happen at some certain point 
-        StartCoroutine(intro());
+        StartCoroutine(Intro());
         
     }
 
@@ -31,7 +31,7 @@ public class SceneController : MonoBehaviour
 
     }
 
-    IEnumerator intro() {
+    IEnumerator Intro() {
 
         float sec = 3;
         for (float counter = 0; counter < sec; counter += Time.deltaTime)

@@ -78,7 +78,7 @@ public class Puppetmaster : MonoBehaviour
     public IEnumerator LuigiTimeline()
     {
         MoveTarget(Luigi, 2, -14, -1);
-        while (MoveCheck(Luigi) == false) {
+        while (MoveCheck(Luigi) == true) {
                 yield return null; 
             }
         MoveTarget(Luigi, 2, -2, -1);

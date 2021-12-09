@@ -48,13 +48,11 @@ public class Character : MonoBehaviour
         lastUpdatePos = transform.position; 
         if (dist.magnitude == 0)
         {
-            Debug.Log(gameObject.name + " ain't Moving");
             return false;
         }
 
         else
         {
-            Debug.Log(gameObject.name + " is moving");
             return true;  
         }
     }
