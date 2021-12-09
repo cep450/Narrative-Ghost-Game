@@ -1,7 +1,7 @@
 title: LetsGetThisPartyStarted
 tags: 
 colorID: 0
-position: -87,-314
+position: -84,-315
 ---
 Tracy: Hey, you know what time it is?
 Preston: Time to chow on Puffball ala Preston?
@@ -21,6 +21,11 @@ Shaun: Drink!
 Tracy: Drink!
 Preston: Drink!
 Shaun: Drink!
+<<set $isLuigiTalking to 0>>
+<<set $isPrestonTalking to 0>>
+<<set $isTracyTalking to 0>>
+<<set $isShaunTalking to 0>>
+<<set $isAveryTalking to 0>>
 ===
 title: EndingScene.Start
 tags: 
@@ -28,6 +33,11 @@ colorID: 0
 position: 149,-565
 ---
 Luigi: So, how's everyone doing?
+<<set $isLuigiTalking to 1>>
+<<set $isPrestonTalking to 1>>
+<<set $isTracyTalking to 1>>
+<<set $isShaunTalking to 1>>
+<<set $isAveryTalking to 1>>
 <<if $isPrestonScared is 1 && $isTracyScared is 1 && $isShaunScared is 1 && $isAveryScared is 1>>
     [[LuigiBoard]]
 <<else>>
@@ -62,8 +72,8 @@ Tracy: In the movies you just ask a question aloud.
 Avery: Yo, ghost! What the hell, dude?!
 Shaun: I think you need to be a bit more specific than that, brah.
 Luigi: Ghost, if you exist, could you tell us what you want? My friends are kind of freaked out.
-<<set $isLuigiPossessed to 1>>
-Luigi: ...
+->Ghost: Now is my chance. I suppose I should possess my descendant here.
+    Luigi: ...
 Tracy: ...Luigi? Are you okay?
 Luigi: Your friend is perfectly sound.
 Preston: What the-
@@ -105,5 +115,10 @@ Tracy: You're never scared by anything, are you?
 Luigi: Never needed to be.
 Shaun: Dude.
 Avery: Like I said, badass.
+<<set $isLuigiTalking to 0>>
+<<set $isPrestonTalking to 0>>
+<<set $isTracyTalking to 0>>
+<<set $isShaunTalking to 0>>
+<<set $isAveryTalking to 0>>
 <<set $haunted to 0>>
 ===

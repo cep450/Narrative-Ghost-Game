@@ -4,6 +4,8 @@ colorID: 0
 position: -311,-1281
 ---
 Shaun: Ok, so, scary stories.
+<<set $isShaunTalking to 1>>
+<<set $isAveryTalking to 1>>
 Avery: Yep, scary stories.
 <<if $isShaunPossessed is 1>>
     [[Shaun: Well, I do know one...|HFHShaunPossessed]]
@@ -57,6 +59,8 @@ Shaun: Yeah. Apparently this was a legend at Camp Avoda.
 Avery: You're telling your dad's old spooky story from Jewish summer camp in the seventies?
 Shaun: Bruh, you tell the story then, if you're so good at it.
 Avery: Nah, man. I'm good. I'd like to hear your dad tell it sometime, though.
+<<set $isShaunTalking to 0>>
+<<set $isAveryTalking to 0>>
 <<set $haunted to 0>>
 ===
 title: HFHShaunPossessed
@@ -234,6 +238,8 @@ Shaun: Yeah, ok. But we are NOT coming back down to this lake again.
 Avery: Got it.
 <<set $isShaunScared to 1>>
 <<set $isAveryScared to 1>>
+<<set $isShaunTalking to 0>>
+<<set $isAveryTalking to 0>>
 <<set $haunted to 0>>
 ===
 title: HFHShaunPossessed2

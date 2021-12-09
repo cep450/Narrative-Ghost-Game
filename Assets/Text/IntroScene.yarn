@@ -1,9 +1,10 @@
 title: Intro.Normal
 tags: 
 colorID: 0
-position: 365,27
+position: 704,-87
 ---
 Ghost: It's a nice afterlife, here in this  house.
+<<set $isGhostTalking to 1>>
 Ghost: I've been here for...oh goodness, has it really been almost a century already?
 Ghost: Honestly, starving to death in the 1930s might have been the greatest decision I made in my life.
 Ghost: This is a lovely house. An ideal place to spend an eternity.
@@ -12,11 +13,15 @@ Ghost: It is a small inconvenience, but I suppose it is better than having the p
 Ghost: After all, I never did quite get the hang of possessing objects, so I cannot maintain the house myself.
 Ghost: I suppose it is a small price to pay for a comfortable afterlife. And the family in question is quiet enough.
 Ghost: Yes, the best thing about death is not having to deal with other people anymore.
-
+<<playSound SoundEffects LuigisCar>>
 Ghost:...hm? Is that family returning?
 Ghost: That doesn't sound like their usual automobile.
 Ghost:...that doesn't look like their usual automobile either.
-
+<<set $isLuigiTalking to 1>>
+<<set $isPrestonTalking to 1>>
+<<set $isTracyTalking to 1>>
+<<set $isShaunTalking to 1>>
+<<set $isAveryTalking to 1>>
 Luigi: Well, folks, here we are!
 Ghost: Oh, no.
 Luigi: My family's little home-away-from-home.
@@ -31,24 +36,33 @@ Avery: I've got the beer!
 Ghost: Oh, no, no, no, this will not do at all!
 Preston: I've got the snacks!
 Shaun: Did we bring snacks?
-Preston: That puffball I found.
+Preston: That puffball mushroom I found.
 Ghost: I do not want a gang of rowdy teenagers in this house!
 Ghost: I need to get rid of them somehow.
 Tracy: You and your mushrooms. I want to check out the bedrooms!
-Ghost: But how? I can't kill them.
 Preston: I'm going to the basement. I need to check the boiler. Don't want it to overheat.
+Ghost: But how? I can't kill them.
 Ghost: If I do that, then they'll just be stuck here as ghosts forever.
 Shaun: I think I'll go down to the lake, see what's down there.
 Ghost: The last thing I want is roommates.
-Luigi: You mean you're going to light up before the party.
 Ghost: Maybe I can possess them?
+->Ghost: I should go over to that chap in the beanie and "press E" to possess him.
+    Ghost: Did it work?
+Luigi: You mean you're going to light up before the party.
 ->Shaun: You know it!
     Luigi: Of course you are.
-->Shaun: Of course, my good fellow.
+->Shaun: Of course, my good fellow.<<if $isShaunPossessed is 1>>
     Luigi: What? Why are you talking like that?
+<<set $isShaunPossessed to 0>>
 Ghost: ...did I do that?
 Luigi: Ok. I'm going to clean a bit before we call everyone.
 Ghost: Even if I cannot alter their movements, I can alter their speech. 
 Luigi: Let's say we call the whole crew in two hours? So, at midnight?
 Ghost: I have two hours to frighten these rapscallions enough to leave me alone.
+<<set $isLuigiTalking to 0>>
+<<set $isPrestonTalking to 0>>
+<<set $isTracyTalking to 0>>
+<<set $isShaunTalking to 0>>
+<<set $isAveryTalking to 0>>
+<<set $isGhostTalking to 0>>
 ===

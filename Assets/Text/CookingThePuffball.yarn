@@ -1,26 +1,28 @@
 title: CookingThePuffball
 tags: 
 colorID: 0
-position: -586,-1468
+position: -586,-1470
 ---
 Luigi: So what're you cooking?
+<<set $isLuigiTalking to 1>>
+<<set $isPrestonTalking to 1>>
 ->Preston: Puffball ala Preston.
     Luigi: Oh, what is that?
-->Preston: A puffball mushroom. It'll be good to have some food after all that driving.<<if $haunted is 1>>
+->Preston: A puffball mushroom. It'll be good to have some food after all that driving.<<if $isPrestonPossessed is 1>>
     Luigi: Yeah, it smells great!
-->Preston: We shall devour the devourer of decay, an agent of that underbelly of growth that returns us all to the soil.<<if $haunted is 1>>
+->Preston: We shall devour the devourer of decay, an agent of that underbelly of growth that returns us all to the soil.<<if $isPrestonPossessed is 1>>
     Luigi: Well that's a bit melodramatic, lol.
 Luigi: How do you make that?
 ->Preston: You pan-sear it in a little oil, cook it up with some other tasty things like organic cheese or other locally foraged mushrooms, drizzle it with a nice little balsamic sauce...
     Luigi: Sounds tasty.
-->Preston: Well, this old stove doesn't seem to be the most reliable, but I think I can whip up a little pan-sear with this flame. Then you just have to add the right other ingredients.<<if $haunted is 1>>
+->Preston: Well, this old stove doesn't seem to be the most reliable, but I think I can whip up a little pan-sear with this flame. Then you just have to add the right other ingredients.<<if $isPrestonPossessed is 1>>
     Luigi: Eh, the stove should be ok as long as you keep an eye on it. But I get it. Sounds tasty.
-->Preson: With a puffball mushroom like this, the flavor is in whatever else you add. You can cook it however you want, almost like tofu. The trick is not making it bland.<<if $haunted is 1>>
+->Preson: With a puffball mushroom like this, the flavor is in whatever else you add. You can cook it however you want, almost like tofu. The trick is not making it bland.<<if $isPrestonPossessed is 1>>
     Luigi: Like tofu, huh? Ok, I think I get it. Sounds tasty.
 Luigi: Sounds kind of complicated.
 Preston: It's not as complicated as you'd think. It's all about knowing what's in season and what tastes good. Then you can  just sort of improv it.
 Luigi: Well, I can't wait to eat.
-<<if $haunted is 1>>
+<<if $isPrestonPossessed is 1>>
     ->Preston: It's a sort of poetry, you know? Life and sustenance, death and decay.
         Luigi: That's kinda beautiful.
     ->Preston: It really is poignant when you think about it.
@@ -33,11 +35,15 @@ Luigi: Well, I can't wait to eat.
     Luigi: Dude, the puffball.
     Preston: Precisely, my good fellow, the puffball. The fruiting body born from the consumption of death and rot. Now it shall feed us.
     Preston: Eventually, we too shall perish, and when we do, our bodies or ashes will feed the network of fungi that consumes us and uses us to feed the world.
+    <<playSound SoundEffects Fire>>
     Luigi: No, dude, the puffball is on fire!
     Preston: Oh, shit!
     <<set $isPrestonScared to 1>>
 <<else>>
     Preston: It should be ready just after 11.
 <<endif>>
+<<set $isLuigiTalking to 0>>
+<<set $isPrestonTalking to 0>>
+<<set $isPrestonPossessed to 0>>
 <<set $haunted to 0>>
 ===

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Yarn.Unity {
 public class ScaredIcon : MonoBehaviour
@@ -9,8 +10,9 @@ public class ScaredIcon : MonoBehaviour
     //TODO: update ui sprites when scared variable changes. 
 
     public string myScaredVariableName;
-    //public something scaredImg;
-
+    public GameObject normalImg;
+    public GameObject scaredImg;
+        
     InMemoryVariableStorage variableStorage;
 
     // Start is called before the first frame update
@@ -23,7 +25,9 @@ public class ScaredIcon : MonoBehaviour
     void Update()
     {
         if(variableStorage.GetValue(myScaredVariableName).AsBool) {
-            //TODO change ui sprite displayed 
+                //TODO change ui sprite displayed 
+                scaredImg.SetActive(true);
+                normalImg.SetActive(false);
         }
     }
 }
