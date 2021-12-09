@@ -35,6 +35,7 @@ Luigi: Well, I can't wait to eat.
     Luigi: Dude, the puffball.
     Preston: Precisely, my good fellow, the puffball. The fruiting body born from the consumption of death and rot. Now it shall feed us.
     Preston: Eventually, we too shall perish, and when we do, our bodies or ashes will feed the network of fungi that consumes us and uses us to feed the world.
+    <<playSound SoundEffects Fire>>
     Luigi: No, dude, the puffball is on fire!
     Preston: Oh, shit!
     <<set $isPrestonScared to 1>>
