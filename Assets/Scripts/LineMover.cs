@@ -25,7 +25,7 @@ public class LineMover : MonoBehaviour
     }
 
     public IEnumerator waitNextLine() {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         dialogueUI.MarkLineComplete();
 
     }

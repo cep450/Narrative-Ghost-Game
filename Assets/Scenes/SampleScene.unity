@@ -859,7 +859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueContainer: {fileID: 6000882}
-  textSpeed: 0.01
+  textSpeed: 0.05
   optionButtons:
   - {fileID: 51134420}
   - {fileID: 1149224417}
@@ -3456,8 +3456,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.0739, y: 0.9805}
-  m_SizeDelta: {x: 834.3978, y: 105.6433}
+  m_AnchoredPosition: {x: 2.0047, y: -1.4472}
+  m_SizeDelta: {x: 822.2594, y: 100.788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1951463045
 MonoBehaviour:
@@ -3481,7 +3481,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -3716,6 +3716,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: usingNodes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: possessShaun
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422567, guid: 56087425994332241bf78c46fadeada2, type: 3}
