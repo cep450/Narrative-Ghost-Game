@@ -11,8 +11,6 @@ public class Scene : MonoBehaviour
     public YarnProgram scriptBaseline;
     public YarnProgram scriptInteraction;
 
-    public string charToPossess;
-
     public bool possessAvery;
     public bool possessShaun;
     public bool possessTracy;
