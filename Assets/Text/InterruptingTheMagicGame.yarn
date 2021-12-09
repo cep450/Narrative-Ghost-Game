@@ -8,8 +8,9 @@ position: 66,-593
     Luigi: Help me, Shaun, she's kicking my ass.
     Tracy: I can't help it I'm so good, Luigi.
     Shaun: I'm coming in.
-->Shaun: BOO!<<if $haunted is 1>>
+->Shaun: BOO!<<if $isShaunPossessed is 1>>
     Tracy: EEEEEK!
     Luigi: Yo, what the hell, Shaun?!
+<<set $isShaunPossessed to 0>>
 <<set $haunted to 0>>
 ===
