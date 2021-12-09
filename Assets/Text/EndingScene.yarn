@@ -72,8 +72,8 @@ Tracy: In the movies you just ask a question aloud.
 Avery: Yo, ghost! What the hell, dude?!
 Shaun: I think you need to be a bit more specific than that, brah.
 Luigi: Ghost, if you exist, could you tell us what you want? My friends are kind of freaked out.
-<<set $isLuigiPossessed to 1>>
-Luigi: ...
+->Ghost: Now is my chance. I suppose I should possess my descendant here.
+    Luigi: ...
 Tracy: ...Luigi? Are you okay?
 Luigi: Your friend is perfectly sound.
 Preston: What the-
