@@ -33,7 +33,7 @@ public class SceneController : MonoBehaviour
 
     IEnumerator intro() {
 
-        float sec = 5;
+        float sec = 3;
         for (float counter = 0; counter < sec; counter += Time.deltaTime)
         {
             yield return null;
