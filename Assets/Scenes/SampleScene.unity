@@ -456,10 +456,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -489,7 +489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422565, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_RootOrder
@@ -747,7 +747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422565, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_RootOrder
@@ -858,7 +858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueContainer: {fileID: 6000882}
-  textSpeed: 0.1
+  textSpeed: 0
   optionButtons:
   - {fileID: 51134420}
   - {fileID: 1149224417}
@@ -1139,7 +1139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422565, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_RootOrder
@@ -1365,7 +1365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422565, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_RootOrder
@@ -1751,10 +1751,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2119,10 +2119,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2473,7 +2473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422565, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_RootOrder
@@ -2746,7 +2746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.98117495, b: 1, a: 0.6039216}
+  m_Color: {r: 0, g: 0.98117495, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2832,7 +2832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422565, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_RootOrder
@@ -3430,8 +3430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.9613, y: 0.9806}
-  m_SizeDelta: {x: 570.6874, y: 63.7291}
+  m_AnchoredPosition: {x: 8.0739, y: 0.9805}
+  m_SizeDelta: {x: 834.3978, y: 105.6433}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1951463045
 MonoBehaviour:
@@ -3455,10 +3455,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -3488,7 +3488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422565, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_RootOrder
@@ -3565,7 +3565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422565, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_RootOrder
@@ -3642,7 +3642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422565, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: m_RootOrder
