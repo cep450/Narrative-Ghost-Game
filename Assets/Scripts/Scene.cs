@@ -57,19 +57,24 @@ public class Scene : MonoBehaviour
 
     public void possess() {
 
+        Debug.Log("hello");
 
         //set the yarn haunted variable to true
         variableStorage.SetValue("haunted", true);
 
         if(possessShaun) {
             variableStorage.SetValue("isShaunPossessed", true);
-        } else if(possessAvery) {
+        }
+        if(possessAvery) {
             variableStorage.SetValue("isAveryPossessed", true);
-        } else if(possessPreston) {
+        }
+        if(possessPreston) {
             variableStorage.SetValue("isPrestonPossessed", true);
-        } else if(possessTracy) {
+        }
+        if(possessTracy) {
             variableStorage.SetValue("isTracyPossessed", true);
-        } else if(possessLuigi) {
+        }
+        if(possessLuigi) {
             variableStorage.SetValue("isLuigiPossessed", true);
         }
         

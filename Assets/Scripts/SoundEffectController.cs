@@ -10,7 +10,7 @@ public class SoundEffectController : MonoBehaviour
     public string [] clipNames;
     public AudioSource source;
     
-    [YarnCommand("playSound")]
+    [YarnCommand("playSound")] //<<playSound ObjectName stringInput>>
     public void playSound(string effectName) {
         //play sound depending on the name
         for(int i = 0; i < sounds.Length; i++)  {
