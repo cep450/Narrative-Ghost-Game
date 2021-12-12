@@ -33,6 +33,10 @@ colorID: 0
 position: 149,-565
 ---
 Luigi: So, how's everyone doing?
+<<walk Director AveryLivingRoom>>
+<<walk Director ShaunLivingRoom>>
+<<walk Director TracyLivingRoom>>
+<<walk Director PrestonLivingRoom>>
 <<set $isLuigiTalking to 1>>
 <<set $isPrestonTalking to 1>>
 <<set $isTracyTalking to 1>>

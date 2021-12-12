@@ -13,4 +13,6 @@ Tracy: C'mon. I want get you alone and show you my Great Charybdis.
 Luigi: Sweet! Let's go.
 <<set $isLuigiTalking to 0>>
 <<set $isTracyTalking to 0>>
+<<walk Director LuigiBedroom>>
+<<walk Director TracyBedroom>>
 ===

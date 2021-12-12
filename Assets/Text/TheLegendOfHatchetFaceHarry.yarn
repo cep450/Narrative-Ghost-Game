@@ -62,6 +62,8 @@ Avery: Nah, man. I'm good. I'd like to hear your dad tell it sometime, though.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
 <<set $haunted to 0>>
+<<walk Director AveryLivingRoom>>
+<<walk Director ShaunLivingRoom>>
 ===
 title: HFHShaunPossessed
 tags: 
@@ -241,6 +243,8 @@ Avery: Got it.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
 <<set $haunted to 0>>
+<<walk Director AveryLivingRoom>>
+<<walk Director ShaunLivingRoom>>
 ===
 title: HFHShaunPossessed2
 tags: 
