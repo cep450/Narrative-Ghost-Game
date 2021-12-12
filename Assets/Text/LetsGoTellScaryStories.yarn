@@ -27,4 +27,8 @@ Avery: Yo, what's going on?
 <<set $isTracyTalking to 0>>
 <<set $isShaunTalking to 0>>
 <<set $isLuigiTalking to 0>>
+<<walk Director ShaunDock>>
+<<walk Director AveryDock>>
+<<walk Director LuigiKitchen>>
+<<walk Director TracyLivingRoom>>
 ===

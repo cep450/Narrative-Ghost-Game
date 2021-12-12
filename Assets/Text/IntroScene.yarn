@@ -65,4 +65,9 @@ Ghost: I have two hours to frighten these rapscallions enough to leave me alone.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
 <<set $isGhostTalking to 0>>
+<<walk Director LuigiLivingRoom>>
+<<walk Director PrestonBasement>>
+<<walk Director TracyBedroom>>
+<<walk Director ShaunDock>>
+<<walk Director AveryLivingRoom>>
 ===

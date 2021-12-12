@@ -7,4 +7,5 @@ Preston: Food's ready!
 <<set $isPrestonTalking to 1>>
 Preston:Come to the dining room for a tasty pan-fried Puffball ala Preston!
 <<set $isPrestonTalking to 0>>
+<<walk Director PrestonLivingRoom>>
 ===

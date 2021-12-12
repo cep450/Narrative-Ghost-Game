@@ -11,4 +11,5 @@ Shaun: Cool. I'm headed up there.
 Avery: Just knock before you enter. You know how easily she startles.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
+<<walk Director ShaunBedroom>>
 ===

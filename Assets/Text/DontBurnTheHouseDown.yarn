@@ -1,7 +1,7 @@
 title: DontBurnTheHouseDown.Normal
 tags: 
 colorID: 0
-position: 315,-23
+position: 315,-24
 ---
 Luigi: Hey man, don't burn the house down with that.
 <<set $isLuigiTalking to 1>>
@@ -11,4 +11,5 @@ Luigi: Woah, calm down, buddy. I'm just joking with you.
 Preston: Fire is not a joke.
 <<set $isLuigiTalking to 0>>
 <<set $isPrestonTalking to 0>>
+<<walk Director PrestonKitchen>>
 ===
