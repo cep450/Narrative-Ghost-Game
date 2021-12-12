@@ -4,6 +4,10 @@ colorID: 0
 position: 14,-723
 ---
 Avery: Yo, what's going on?
+<<set $isAveryTalking to 1>>
+<<set $isTracyTalking to 1>>
+<<set $isShaunTalking to 1>>
+<<set $LuigiTalking to 1>>
 <<if $isTracyScared is 0>>
     Avery: Hey, Shaun, want to go down to the lake?
     Shaun: Brah, I was just down there.
@@ -19,4 +23,12 @@ Avery: Yo, what's going on?
     Shaun: Are you sure?
     Avery: Of course! There's no way you'll be able to scare me.
 <<endif>>
+<<set $isAveryTalking to 0>>
+<<set $isTracyTalking to 0>>
+<<set $isShaunTalking to 0>>
+<<set $isLuigiTalking to 0>>
+<<walk Director ShaunDock>>
+<<walk Director AveryDock>>
+<<walk Director LuigiKitchen>>
+<<walk Director TracyLivingRoom>>
 ===

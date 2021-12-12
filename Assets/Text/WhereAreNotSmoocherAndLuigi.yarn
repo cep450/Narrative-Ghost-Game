@@ -4,7 +4,12 @@ colorID: 0
 position: 215,-286
 ---
 Shaun: Hey brah, where's Tracy?
+<<set $isShaunTalking to 1>>
+<<set $isAveryTalking to 1>>
 Avery: She went upstairs with Luigi. They're probably playing Magic in bed or something.
 Shaun: Cool. I'm headed up there.
 Avery: Just knock before you enter. You know how easily she startles.
+<<set $isShaunTalking to 0>>
+<<set $isAveryTalking to 0>>
+<<walk Director ShaunBedroom>>
 ===

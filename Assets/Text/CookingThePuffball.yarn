@@ -4,6 +4,8 @@ colorID: 0
 position: -586,-1470
 ---
 Luigi: So what're you cooking?
+<<set $isLuigiTalking to 1>>
+<<set $isPrestonTalking to 1>>
 ->Preston: Puffball ala Preston.
     Luigi: Oh, what is that?
 ->Preston: A puffball mushroom. It'll be good to have some food after all that driving.<<if $isPrestonPossessed is 1>>
@@ -33,12 +35,16 @@ Luigi: Well, I can't wait to eat.
     Luigi: Dude, the puffball.
     Preston: Precisely, my good fellow, the puffball. The fruiting body born from the consumption of death and rot. Now it shall feed us.
     Preston: Eventually, we too shall perish, and when we do, our bodies or ashes will feed the network of fungi that consumes us and uses us to feed the world.
+    <<playSound SoundEffects Fire>>
     Luigi: No, dude, the puffball is on fire!
     Preston: Oh, shit!
     <<set $isPrestonScared to 1>>
 <<else>>
     Preston: It should be ready just after 11.
 <<endif>>
+<<set $isLuigiTalking to 0>>
+<<set $isPrestonTalking to 0>>
 <<set $isPrestonPossessed to 0>>
 <<set $haunted to 0>>
+<<walk Director LuigiLivingRoom>>
 ===
