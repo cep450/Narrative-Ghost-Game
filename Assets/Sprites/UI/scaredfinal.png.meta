@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: abbfd85ecd9dae842a4421fddf479017
+guid: 202c27b107e60064c8cf6f63b2cbf609
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3575555607119016136
-    second: averyFinal_0
+      213: -5943392945149912776
+    second: scaredfinal_0
   - first:
-      213: -853929687695152882
-    second: averyFinal_1
+      213: 6504778905591718928
+    second: scaredfinal_1
+  - first:
+      213: 4726862743700149081
+    second: scaredfinal_2
+  - first:
+      213: 1582273808766459475
+    second: scaredfinal_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -74,7 +80,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -86,7 +92,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +128,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: averyFinal_0
+      name: scaredfinal_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 669
-        width: 330
-        height: 1071
+        x: 0
+        y: 130
+        width: 574
+        height: 391
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83fc3039e13116ec0800000000000000
-      internalID: -3575555607119016136
+      spriteID: 839d6c71b93d48da0800000000000000
+      internalID: -5943392945149912776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: averyFinal_1
+      name: scaredfinal_1
       rect:
         serializedVersion: 2
-        x: 426
-        y: 669
-        width: 392
-        height: 1071
+        x: 592
+        y: 108
+        width: 476
+        height: 454
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,8 +174,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0925cd297b3624f0800000000000000
-      internalID: -853929687695152882
+      spriteID: 014af3a63fd954a50800000000000000
+      internalID: 6504778905591718928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredfinal_2
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 0
+        width: 378
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95396441f90399140800000000000000
+      internalID: 4726862743700149081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scaredfinal_3
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 117
+        width: 349
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35edde455ad55f510800000000000000
+      internalID: 1582273808766459475
       vertices: []
       indices: 
       edges: []

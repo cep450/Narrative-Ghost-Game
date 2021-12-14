@@ -3,6 +3,8 @@ tags:
 colorID: 0
 position: 215,-286
 ---
+<<walkTo Shaun Shaun 4 ShaunLivingRoom>>
+<<walkTo Avery Avery 4 AveryLivingRoom>>
 Shaun: Hey brah, where's Tracy?
 <<set $isShaunTalking to 1>>
 <<set $isAveryTalking to 1>>
@@ -11,4 +13,5 @@ Shaun: Cool. I'm headed up there.
 Avery: Just knock before you enter. You know how easily she startles.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
+<<walkTo Shaun Shaun 4 ShaunBedroom>>
 ===

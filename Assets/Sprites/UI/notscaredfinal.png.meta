@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: abbfd85ecd9dae842a4421fddf479017
+guid: 01652823fa1232d408f0ab06e4c37552
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3575555607119016136
-    second: averyFinal_0
+      213: 769567796383646642
+    second: notscaredfinal_0
   - first:
-      213: -853929687695152882
-    second: averyFinal_1
+      213: -3915195973727473886
+    second: notscaredfinal_1
+  - first:
+      213: -190526926722183363
+    second: notscaredfinal_2
+  - first:
+      213: -3582149877235970217
+    second: notscaredfinal_3
+  - first:
+      213: 2631830077565309698
+    second: notscaredfinal_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -74,7 +83,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -86,7 +95,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +131,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: averyFinal_0
+      name: notscaredfinal_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 669
-        width: 330
-        height: 1071
+        x: 0
+        y: 98
+        width: 425
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83fc3039e13116ec0800000000000000
-      internalID: -3575555607119016136
+      spriteID: 2b3070e55dd0eaa00800000000000000
+      internalID: 769567796383646642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: averyFinal_1
+      name: notscaredfinal_1
       rect:
         serializedVersion: 2
-        x: 426
-        y: 669
-        width: 392
-        height: 1071
+        x: 444
+        y: 52
+        width: 513
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,8 +177,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0925cd297b3624f0800000000000000
-      internalID: -853929687695152882
+      spriteID: 22f2fe7610e6aa9c0800000000000000
+      internalID: -3915195973727473886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notscaredfinal_2
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 0
+        width: 377
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fc39405cc1b5df0800000000000000
+      internalID: -190526926722183363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notscaredfinal_3
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 135
+        width: 383
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f042b6aa5a94ec0800000000000000
+      internalID: -3582149877235970217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notscaredfinal_4
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 107
+        width: 481
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2031872f283268420800000000000000
+      internalID: 2631830077565309698
       vertices: []
       indices: 
       edges: []

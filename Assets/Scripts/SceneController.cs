@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//namespace Yarn.Unity {
+namespace Yarn.Unity {
 public class SceneController : MonoBehaviour
 {
 
@@ -20,7 +20,7 @@ public class SceneController : MonoBehaviour
     void Start()
     {
         //just temporary. this would happen at some certain point 
-        StartCoroutine(intro());
+        StartCoroutine(Intro());
         
     }
 
@@ -31,7 +31,7 @@ public class SceneController : MonoBehaviour
 
     }
 
-    IEnumerator intro() {
+    IEnumerator Intro() {
 
         float sec = 3;
         for (float counter = 0; counter < sec; counter += Time.deltaTime)
@@ -41,8 +41,21 @@ public class SceneController : MonoBehaviour
         sc_intro.SetActive(true);
     }
 
+
+    [YarnCommand("enableScene")]
+    public void enableNextScene(string seconds, string sceneName) {
+        GameObject sc = GameObject.Find(sceneName);
+        float sec = float.Parse(seconds);
+        StartCoroutine(enableNextSceneRoutine(sec, sc));
+    }
+
+    IEnumerator enableNextSceneRoutine(float seconds, GameObject sc) {
+        yield return new WaitForSeconds(seconds);
+        sc.SetActive(true);
+    }
+
     //private IEnumerator TimedScene(Scene scene) {
 
     //}
 }
-//}
+}

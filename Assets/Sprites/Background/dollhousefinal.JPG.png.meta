@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: abbfd85ecd9dae842a4421fddf479017
+guid: cea00efdea8bfbc44977ce51f9677a2a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3575555607119016136
-    second: averyFinal_0
+      213: 2262933938475226371
+    second: dollhouse
   - first:
-      213: -853929687695152882
-    second: averyFinal_1
+      213: -572889696644067431
+    second: green
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -86,7 +86,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: averyFinal_0
+      name: dollhouse
       rect:
         serializedVersion: 2
-        x: 62
-        y: 669
-        width: 330
-        height: 1071
+        x: 0
+        y: 15
+        width: 1842
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +123,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83fc3039e13116ec0800000000000000
-      internalID: -3575555607119016136
+      spriteID: 305ddf07d6e876f10800000000000000
+      internalID: 2262933938475226371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: averyFinal_1
+      name: green
       rect:
         serializedVersion: 2
-        x: 426
-        y: 669
-        width: 392
-        height: 1071
+        x: 35
+        y: 56
+        width: 192
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,8 +144,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0925cd297b3624f0800000000000000
-      internalID: -853929687695152882
+      spriteID: 99f8c003bdfac08f0800000000000000
+      internalID: -572889696644067431
       vertices: []
       indices: 
       edges: []

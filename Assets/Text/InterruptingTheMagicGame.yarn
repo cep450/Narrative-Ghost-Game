@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 66,-593
 ---
+<<walkTo Shaun Shaun 4 ShaunBathroom>>
 Shaun: I guess this is the room.
 <<set $isShaunTalking to 1>>
 <<set $isTracyTalking to 1>>
@@ -12,7 +13,9 @@ Shaun: I guess this is the room.
     Luigi: Help me, Shaun, she's kicking my ass.
     Tracy: I can't help it I'm so good, Luigi.
     Shaun: I'm coming in.
+	<<walkTo Shaun Shaun 3 LuigiBedroom>>
 ->Shaun: BOO!<<if $isShaunPossessed is 1>>
+	<<walkTo Shaun Shaun 12 LuigiBedroom>>
     Tracy: EEEEEK!
     Luigi: Yo, what the hell, Shaun?!
 <<set $isShaunPossessed to 0>>
@@ -20,4 +23,5 @@ Shaun: I guess this is the room.
 <<set $isLuigiTalking to 0>>
 <<set $isTracyTalking to 0>>
 <<set $haunted to 0>>
+<<walkTo Avery Avery 5 AveryBedroom>>
 ===
