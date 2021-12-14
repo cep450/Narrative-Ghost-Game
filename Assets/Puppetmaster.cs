@@ -35,12 +35,16 @@ namespace Yarn.Unity {
 
         public void MoveTarget(GameObject obj, float newSpeed, params float[] newCoords)
         {
-
+            var scr = obj.GetComponent<Character>();
+            scr.speed = newSpeed;
+            scr.coordX = newCoords[0];
+            scr.coordY = newCoords[1];
         }
 
         [YarnCommand("walkTo")]
         public void walkTo(string character, string speed, string destinationName)
         {
+            Debug.Log("WalkTo has been run!");
             var floatSpeed = float.Parse(speed);
             var charObj = GameObject.Find(character);
             switch (destinationName)

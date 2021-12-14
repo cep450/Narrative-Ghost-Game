@@ -30,7 +30,9 @@ public class Interact : MonoBehaviour
         //if can interact, and presses E 
         if(Input.GetKeyDown(KeyCode.E) && myE.enabled) {
 
-            Scene sceneOverlapping = other.gameObject.GetComponent<Scene>() as Scene;
+            Debug.Log("caught E press");
+
+            Scene sceneOverlapping = other.gameObject.GetComponent<Scene>();
                 
             //if overlapping w/ a scene, possess in that scene 
             if(sceneOverlapping != null) {

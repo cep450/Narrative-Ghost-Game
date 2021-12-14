@@ -57,25 +57,25 @@ public class Scene : MonoBehaviour
 
     public void possess() {
 
-        Debug.Log("hello");
+        Debug.Log("hi from inside possess func");
 
         //set the yarn haunted variable to true
-        variableStorage.SetValue("haunted", true);
+        variableStorage.SetValue("haunted", 1);
 
         if(possessShaun) {
-            variableStorage.SetValue("isShaunPossessed", true);
+            variableStorage.SetValue("isShaunPossessed", 1);
         }
         if(possessAvery) {
-            variableStorage.SetValue("isAveryPossessed", true);
+            variableStorage.SetValue("isAveryPossessed", 1);
         }
         if(possessPreston) {
-            variableStorage.SetValue("isPrestonPossessed", true);
+            variableStorage.SetValue("isPrestonPossessed", 1);
         }
         if(possessTracy) {
-            variableStorage.SetValue("isTracyPossessed", true);
+            variableStorage.SetValue("isTracyPossessed", 1);
         }
         if(possessLuigi) {
-            variableStorage.SetValue("isLuigiPossessed", true);
+            variableStorage.SetValue("isLuigiPossessed", 1);
         }
         
         //if this is a longer script, we need to translate what node it's on. 

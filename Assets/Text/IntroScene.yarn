@@ -3,9 +3,9 @@ tags:
 colorID: 0
 position: 704,-87
 ---
-Ghost: It's a nice afterlife, here in this  house.
+Ghost: It's a nice afterlife, here in this house.
 <<set $isGhostTalking to 1>>
-Ghost: I've been here for...oh goodness, has it really been almost a century already?
+Ghost: Has it really been almost a century already?
 Ghost: Honestly, starving to death in the 1930s might have been the greatest decision I made in my life.
 Ghost: This is a lovely house. An ideal place to spend an eternity.
 Ghost: Some family comes by every so often, spends a weekend, keeps the place clean.
@@ -22,13 +22,18 @@ Ghost:...that doesn't look like their usual automobile either.
 <<set $isTracyTalking to 1>>
 <<set $isShaunTalking to 1>>
 <<set $isAveryTalking to 1>>
+<<walkTo Luigi Luigi 3 LuigiEntrance>>
 Luigi: Well, folks, here we are!
 Ghost: Oh, no.
 Luigi: My family's little home-away-from-home.
 Ghost: This is not the usual family.
+<<walkTo Preston Preston 5 PrestonEntrance>>
 Preston: This place looks awesome!
+<<walkTo Avery Avery 3 AveryEntrance>>
 Avery: This place looks abandoned as heck.
+<<walkTo Shaun Shaun 4 ShaunEntrance>>
 Shaun: It's an old house in the woods on a lake. I think that looking abandoned is part of the architecture.
+<<walkTo Tracy Tracy 8 TracyEntrance>>
 Tracy: Who cares? I'm ready to party!
 Ghost: Teenagers.
 Luigi: First we should get this stuff inside.
