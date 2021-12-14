@@ -53,6 +53,7 @@ Ghost: The last thing I want is roommates.
 Ghost: Maybe I can possess them?
 ->Ghost: I should go over to that chap in the beanie and "press E" to possess him.
     Ghost: Did it work?
+<<set $isShaunPossessed to 1>>
 Luigi: You mean you're going to light up before the party.
 ->Shaun: You know it!
     Luigi: Of course you are.
