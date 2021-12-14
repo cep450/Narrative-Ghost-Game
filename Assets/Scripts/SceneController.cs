@@ -52,7 +52,6 @@ public class SceneController : MonoBehaviour
     IEnumerator enableNextSceneRoutine(float seconds, GameObject sc) {
         yield return new WaitForSeconds(seconds);
         sc.SetActive(true);
-        
     }
 
     //private IEnumerator TimedScene(Scene scene) {
