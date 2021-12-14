@@ -1586,22 +1586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 610c541718d694070a21327d1ae62e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultVariables:
-  - name: haunted
-    value: 0
-    type: 0
-  - name: isPrestonScared
-    value: 0
-    type: 0
-  - name: isTracyScared
-    value: 0
-    type: 0
-  - name: isAveryScared
-    value: 0
-    type: 0
-  - name: isShaunScared
-    value: 0
-    type: 0
+  defaultVariables: []
   debugTextView: {fileID: 0}
 --- !u!114 &409936351
 MonoBehaviour:
@@ -3793,7 +3778,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1246085194}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 409936348}
+        m_TargetAssemblyTypeName: Yarn.Unity.DialogueUI, YarnSpinner.Unity
+        m_MethodName: MarkLineComplete
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1246085194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4761,8 +4758,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -49, y: 82}
-  m_SizeDelta: {x: 371.1238, y: 434.2831}
+  m_AnchoredPosition: {x: -32.950317, y: 75.82703}
+  m_SizeDelta: {x: 403.2232, y: 446.6291}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1613871973
 MonoBehaviour:
