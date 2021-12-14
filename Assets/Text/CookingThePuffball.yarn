@@ -48,5 +48,5 @@ Luigi: Well, I can't wait to eat.
 <<set $isPrestonTalking to 0>>
 <<set $isPrestonPossessed to 0>>
 <<set $haunted to 0>>
-<<walk Director LuigiLivingRoom>>
+<<walkTo Luigi Luigi 4 LuigiLivingRoom>>
 ===

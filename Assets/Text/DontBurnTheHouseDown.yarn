@@ -14,5 +14,5 @@ Luigi: Woah, calm down, buddy. I'm just joking with you.
 Preston: Fire is not a joke.
 <<set $isLuigiTalking to 0>>
 <<set $isPrestonTalking to 0>>
-<<walk Director PrestonKitchen>>
+<<walkTo Preston Preston 4 PrestonKitchen>>
 ===
