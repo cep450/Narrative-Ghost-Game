@@ -3,6 +3,11 @@ tags:
 colorID: 0
 position: -84,-315
 ---
+<<walkTo Tracy Tracy 5 TracyLivingRoom>>
+<<walkTo Preston Preston 5 PrestonLivingRoom>>
+<<walkTo Shaun Shaun 5 ShaunLivingRoom>>
+<<walkTo Avery Avery 5 AveryLivingRoom>>
+<<walkTo Luigi Luigi 5 LuigiLivingRoom>>
 Tracy: Hey, you know what time it is?
 Preston: Time to chow on Puffball ala Preston?
 Shaun: Time to look at the stars? Oh, and, uh, save some of that puffball for me. I'm hungry.
