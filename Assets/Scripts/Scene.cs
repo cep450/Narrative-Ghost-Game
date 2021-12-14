@@ -64,6 +64,7 @@ public class Scene : MonoBehaviour
 
         if(possessShaun) {
             variableStorage.SetValue("isShaunPossessed", 1);
+            Debug.Log("hi from setting s var");
         }
         if(possessAvery) {
             variableStorage.SetValue("isAveryPossessed", 1);
