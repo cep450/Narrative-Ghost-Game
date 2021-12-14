@@ -3,6 +3,9 @@ tags:
 colorID: 0
 position: -311,-1281
 ---
+<<walkTo Shaun Shaun 4 ShaunDock>>
+<<walkTo Avery Avery 4 AveryDock>>
+<<wait 8>>
 Shaun: Ok, so, scary stories.
 <<set $isShaunTalking to 1>>
 <<set $isAveryTalking to 1>>

@@ -3,8 +3,11 @@ tags:
 colorID: 0
 position: 215,-204
 ---
+<<walkTo Preston Preston 5 PrestonKitchen>>
+<<wait 2>>
 Preston: Food's ready!
 <<set $isPrestonTalking to 1>>
+<<walkTo Preston Preston 5 PrestonLivingRoom>>
 Preston:Come to the dining room for a tasty pan-fried Puffball ala Preston!
 <<set $isPrestonTalking to 0>>
 <<walk Director PrestonLivingRoom>>
