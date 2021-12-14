@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 266,-153
 ---
+<<walkTo Tracy Tracy 4 TracyLivingRoom>>
 Tracy: Hey, Luigi?
 <<set $isLuigiTalking to 1>>
 <<set $isTracyTalking to 1>>
@@ -13,6 +14,6 @@ Tracy: C'mon. I want get you alone and show you my Great Charybdis.
 Luigi: Sweet! Let's go.
 <<set $isLuigiTalking to 0>>
 <<set $isTracyTalking to 0>>
-<<walk Director LuigiBedroom>>
-<<walk Director TracyBedroom>>
+<<walkTo Luigi Luigi 4 LuigiBedroom>>
+<<walkTo Tracy Tracy 4 TracyBedroom>>
 ===
