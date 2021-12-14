@@ -57,7 +57,7 @@ public class Scene : MonoBehaviour
 
     public void possess() {
 
-        Debug.Log("hello");
+        Debug.Log("hi from inside possess func");
 
         //set the yarn haunted variable to true
         variableStorage.SetValue("haunted", true);
