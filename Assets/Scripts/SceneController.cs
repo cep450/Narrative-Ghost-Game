@@ -11,6 +11,7 @@ public class SceneController : MonoBehaviour
 
 
     public GameObject sc_intro; 
+    public GameObject sc_dontburn;
     public GameObject sc_puffball;
     //ect for scenes 
 
@@ -44,7 +45,11 @@ public class SceneController : MonoBehaviour
 
     [YarnCommand("enableScene")]
     public void enableNextScene(string seconds, string sceneName) {
-        GameObject sc = GameObject.Find(sceneName);
+        GameObject sc = null;
+        if(sceneName.Equals("DontBurnTheHouseDown")) {
+            sc = sc_dontburn;
+        }
+        //TODO ect
         float sec = float.Parse(seconds);
         StartCoroutine(enableNextSceneRoutine(sec, sc));
     }
