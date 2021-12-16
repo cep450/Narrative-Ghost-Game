@@ -13,6 +13,12 @@ public class SceneController : MonoBehaviour
     public GameObject sc_intro; 
     public GameObject sc_dontburn;
     public GameObject sc_puffball;
+    public GameObject sc_foodready;
+    public GameObject sc_upstairs;
+    public GameObject sc_playingmagic;
+    public GameObject sc_interrupting;
+    public GameObject sc_scarystories;
+    public GameObject sc_ending;
     //ect for scenes 
 
 
@@ -48,8 +54,22 @@ public class SceneController : MonoBehaviour
         GameObject sc = null;
         if(sceneName.Equals("DontBurnTheHouseDown")) {
             sc = sc_dontburn;
+        } else if(sceneName.Equals("FoodsReady")) {
+            sc = sc_foodready;
+        } else if(sceneName.Equals("CookingThePuffball")) {
+            sc = sc_puffball;
+        } else if(sceneName.Equals("DoYouWantToGoUpstairs")) {
+            sc = sc_upstairs;
+        } else if(sceneName.Equals("TheyAreProbablyPlayingMagicInBed")) {
+            sc = sc_playingmagic;
+        } else if(sceneName.Equals("InterruptingTheMagicGame")) {
+            sc = sc_interrupting;
+        } else if(sceneName.Equals("ScaryStories")) {
+            sc = sc_scarystories;
+        } else if(sceneName.Equals("EndingScene")) {
+            sc = sc_ending;
         }
-        //TODO ect
+
         float sec = float.Parse(seconds);
         StartCoroutine(enableNextSceneRoutine(sec, sc));
     }
