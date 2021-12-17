@@ -23,5 +23,5 @@ Shaun: I guess this is the room.
 <<set $isLuigiTalking to 0>>
 <<set $isTracyTalking to 0>>
 <<set $haunted to 0>>
-<<walk Director AveryBedroom>>
+<<walkTo Avery Avery 5 AveryBedroom>>
 ===
