@@ -10,6 +10,7 @@ public class SceneController : MonoBehaviour
     //enables Scenes ie starting them up. 
 
 
+    public GameObject parent = GameObject.Find()
     public GameObject sc_intro; 
     public GameObject sc_puffball;
     //ect for scenes 
