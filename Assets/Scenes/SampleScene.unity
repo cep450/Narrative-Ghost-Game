@@ -161,6 +161,11 @@ MonoBehaviour:
   sc_interrupting: {fileID: 1665111493}
   sc_scarystories: {fileID: 806500834}
   sc_ending: {fileID: 1438623379}
+  face_shaun: {fileID: 1950268117}
+  face_tracy: {fileID: 945297610}
+  face_luigi: {fileID: 1686864810}
+  face_avery: {fileID: 645180360}
+  face_preston: {fileID: 1655664422}
 --- !u!4 &746620
 Transform:
   m_ObjectHideFlags: 0
@@ -2194,7 +2199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &645180361
 Transform:
   m_ObjectHideFlags: 0
@@ -2939,7 +2944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &945297611
 Transform:
   m_ObjectHideFlags: 0
@@ -4981,7 +4986,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1655664423
 Transform:
   m_ObjectHideFlags: 0
@@ -5191,7 +5196,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1686864811
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6181,7 +6186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1950268118
 Transform:
   m_ObjectHideFlags: 0
