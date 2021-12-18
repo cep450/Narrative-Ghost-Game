@@ -28,7 +28,7 @@ public class SceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //just temporary. this would happen at some certain point 
+
         StartCoroutine(Intro());
         
     }
