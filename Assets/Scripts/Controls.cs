@@ -6,7 +6,7 @@ public class Controls : MonoBehaviour
 {
     float MAX_POS_X = 20f;
     float MAX_POS_Y = 20f;
-    static float SPEED = 0.05f;
+    static float SPEED = 7f;
     float SPEED_DIAG = SPEED * Mathf.Sin(Mathf.PI / 4) + 0.002f;
     public SpriteRenderer spriteToFlip;
 
@@ -24,9 +24,9 @@ public class Controls : MonoBehaviour
 
         //same speed when diagonal
         if((up || down ) && (left || right)) {
-            effectivespeed = SPEED_DIAG;
+            effectivespeed = SPEED_DIAG * Time.deltaTime;
         } else {
-            effectivespeed = SPEED;
+            effectivespeed = SPEED * Time.deltaTime;
         }
 
         //prevent from going out of bounds

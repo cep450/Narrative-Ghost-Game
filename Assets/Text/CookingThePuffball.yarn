@@ -3,6 +3,8 @@ tags:
 colorID: 0
 position: -586,-1470
 ---
+<<walkTo Luigi Luigi 4 LuigiKitchen>>
+<<walkTo Preston Preston 4 PrestonKtichen>>
 Luigi: So what're you cooking?
 <<set $isLuigiTalking to 1>>
 <<set $isPrestonTalking to 1>>
@@ -46,5 +48,5 @@ Luigi: Well, I can't wait to eat.
 <<set $isPrestonTalking to 0>>
 <<set $isPrestonPossessed to 0>>
 <<set $haunted to 0>>
-<<walk Director LuigiLivingRoom>>
+<<walkTo Luigi Luigi 4 LuigiLivingRoom>>
 ===

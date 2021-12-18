@@ -8,14 +8,23 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: en-US
   stringIDs:
-  - LetsGoTellScaryStories-Start-0
-  - LetsGoTellScaryStories-Start-1
-  - LetsGoTellScaryStories-Start-2
-  - LetsGoTellScaryStories-Start-3
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-0
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-1
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-2
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-3
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-4
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-5
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-6
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-7
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-8
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-9
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-10
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-11
+  - LetsGoTellScaryStories-LetsGoTellScaryStories-12
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 8bdd7418261ec8e4b86042a70d2ff2b0, type: 3}
   localizations: []
