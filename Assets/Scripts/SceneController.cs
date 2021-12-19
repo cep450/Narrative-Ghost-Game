@@ -6,10 +6,14 @@ namespace Yarn.Unity {
 public class SceneController : MonoBehaviour
 {
 
-    //makes stuff happen at the right times. 
-    //enables Scenes ie starting them up. 
+        //makes stuff happen at the right times. 
+        //enables Scenes ie starting them up. 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
+    public GameObject parent;
     public GameObject sc_intro; 
     public GameObject sc_dontburn;
     public GameObject sc_puffball;
@@ -28,7 +32,8 @@ public class SceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        parent = GameObject.Find("Scenes");
+        //just temporary. this would happen at some certain point 
         StartCoroutine(Intro());
         
     }
