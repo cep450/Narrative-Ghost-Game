@@ -9,10 +9,6 @@ public class SceneController : MonoBehaviour
         //makes stuff happen at the right times. 
         //enables Scenes ie starting them up. 
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
     public GameObject parent;
     public GameObject sc_intro; 
     public GameObject sc_dontburn;

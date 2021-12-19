@@ -5,12 +5,9 @@ TextureImporter:
   - first:
       213: -3421582560614385086
     second: tracyFinal_0
-<<<<<<< Updated upstream
   - first:
       213: -938573161874770360
-    second: tracyFinal_1
-=======
->>>>>>> Stashed changes
+    second: tracyFinal_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -46,7 +43,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -70,14 +67,14 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -89,7 +86,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,41 +112,10 @@ TextureImporter:
       name: tracyFinal_0
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
-        x: 195
-        y: 651
-        width: 259
-        height: 915
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
-        x: 144
-        y: 648
-        width: 312
-        height: 901
-      alignment: 0
-      pivot: {x: 0, y: 0}
->>>>>>> Stashed changes
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24a78e81ac81480d0800000000000000
-      internalID: -3421582560614385086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-<<<<<<< Updated upstream
-    - serializedVersion: 2
-      name: tracyFinal_1
-      rect:
-        serializedVersion: 2
         x: 199
         y: 650
-        width: 254
-        height: 905
+        width: 263
+        height: 901
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,9 +129,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-=======
->>>>>>> Stashed changes
-    outline: []
+    outline:
+    - - {x: -1000, y: -900}
+      - {x: 1000, y: -900}
+      - {x: 1000, y: 900}
+      - {x: -1000, y: 900}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
