@@ -10,6 +10,16 @@ public class Controls : MonoBehaviour
     float SPEED_DIAG = SPEED * Mathf.Sin(Mathf.PI / 4) + 0.002f;
     public SpriteRenderer spriteToFlip;
 
+    public AudioSource musicSource;
+    public AudioClip musicStart;
+
+    void Start()
+    {
+        musicSource.PlayOneShot(musicStart);
+        musicSource.PlayScheduled(AudioSettings.dspTime + musicStart.length);
+    }
+
+
     // Update is called once per frame
     void Update()
     {
