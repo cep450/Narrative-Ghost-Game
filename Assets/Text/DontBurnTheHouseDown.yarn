@@ -5,7 +5,7 @@ position: 315,-24
 ---
 <<walkTo Luigi Luigi 4 LuigiKitchen>>
 <<walkTo Preston Preston 4 PrestonKitchen>>
-<<wait 8>>
+<<wait 1>>
 Luigi: Hey man, don't burn the house down with that.
 <<set $isLuigiTalking to 1>>
 <<set $isPrestonTalking to 1>>
@@ -14,7 +14,4 @@ Luigi: Woah, calm down, buddy. I'm just joking with you.
 Preston: Fire is not a joke.
 <<set $isLuigiTalking to 0>>
 <<set $isPrestonTalking to 0>>
-<<walkTo Preston Preston 4 PrestonKitchen>>
-<<walkTo Luigi Luigi 4 LuigiLivingRoom>>
-<<enableScene SceneDirector 2 DoYouWantToGoUpstairs>>
 ===

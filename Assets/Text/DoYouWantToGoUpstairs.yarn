@@ -3,7 +3,12 @@ tags:
 colorID: 0
 position: 266,-153
 ---
+<<walkTo Tracy Tracy 6 Stairs2F>>
+<<wait 2>>
+<<walkTo Tracy Tracy 8 Stairs1F>>
+<<wait 2>>
 <<walkTo Tracy Tracy 4 TracyLivingRoom>>
+<<walkTo Luigi Luigi 6 LuigiLivingRoom>>
 Tracy: Hey, Luigi?
 <<set $isLuigiTalking to 1>>
 <<set $isTracyTalking to 1>>
@@ -14,7 +19,13 @@ Tracy: C'mon. I want get you alone and show you my Great Charybdis.
 Luigi: Sweet! Let's go.
 <<set $isLuigiTalking to 0>>
 <<set $isTracyTalking to 0>>
-<<walkTo Luigi Luigi 4 LuigiBedroom>>
-<<walkTo Tracy Tracy 4 TracyBedroom>>
-<<enableScene SceneDirector 3 TheyAreProbablyPlayingMagicInBed>>
+<<walkTo Luigi Luigi 6 Stairs1F>>
+<<wait 2>>
+<<walkTo Luigi Luigi 8 Stairs2F>>
+<<walkTo Tracy Tracy 4 Stairs 1F>>
+<<wait 3>>
+<<walkTo Luigi Luigi 8 LuigiBedroom>>
+<<walkTo Tracy tracy 6 Stair2F>>
+<<wait 3>>
+<<walkTo Tracy Tracy 3 TracyBedroom>>
 ===
