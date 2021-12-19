@@ -31,4 +31,5 @@ Avery: Yo, what's going on?
 <<walkTo Avery Avery 4 AveryDock>>
 <<walkTo Luigi Luigi 4 LuigiKitchen>>
 <<walkTo Tracy Tracy 4 TracyLivingRoom>>
+<<enableScene SceneDirector 5 ScaryStories>>
 ===

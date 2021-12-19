@@ -16,4 +16,5 @@ Luigi: Sweet! Let's go.
 <<set $isTracyTalking to 0>>
 <<walkTo Luigi Luigi 4 LuigiBedroom>>
 <<walkTo Tracy Tracy 4 TracyBedroom>>
+<<enableScene SceneDirector 3 TheyAreProbablyPlayingMagicInBed>>
 ===

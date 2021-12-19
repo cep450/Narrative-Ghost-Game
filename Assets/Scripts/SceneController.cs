@@ -17,6 +17,7 @@ public class SceneController : MonoBehaviour
     public GameObject sc_upstairs;
     public GameObject sc_playingmagic;
     public GameObject sc_interrupting;
+    public GameObject sc_letsgo;
     public GameObject sc_scarystories;
     public GameObject sc_ending;
     //ect for scenes 
@@ -76,6 +77,8 @@ public class SceneController : MonoBehaviour
             sc = sc_playingmagic;
         } else if(sceneName.Equals("InterruptingTheMagicGame")) {
             sc = sc_interrupting;
+        } else if (sceneName.Equals("LetsGoTellScaryStories")) {
+            sc = sc_letsgo;
         } else if(sceneName.Equals("ScaryStories")) {
             sc = sc_scarystories;
         } else if(sceneName.Equals("EndingScene")) {
