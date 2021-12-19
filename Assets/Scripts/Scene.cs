@@ -62,9 +62,10 @@ public class Scene : MonoBehaviour
         //set the yarn haunted variable to true
         variableStorage.SetValue("haunted", 1);
 
+        Debug.Log("haunted is now " + variableStorage.GetValue("haunted"));
+
         if(possessShaun) {
             variableStorage.SetValue("isShaunPossessed", 1);
-            Debug.Log("hi from setting s var");
         }
         if(possessAvery) {
             variableStorage.SetValue("isAveryPossessed", 1);

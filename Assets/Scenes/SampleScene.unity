@@ -160,7 +160,7 @@ MonoBehaviour:
   sc_upstairs: {fileID: 394213480}
   sc_playingmagic: {fileID: 551290905}
   sc_interrupting: {fileID: 1665111493}
-  sc_letsgo: {fileID: 0}
+  sc_letsgo: {fileID: 1758481553}
   sc_scarystories: {fileID: 806500834}
   sc_ending: {fileID: 1438623379}
   face_shaun: {fileID: 1950268117}
@@ -6198,6 +6198,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1758481553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6541970951683422564, guid: 56087425994332241bf78c46fadeada2, type: 3}
+  m_PrefabInstance: {fileID: 1199576307}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1777846795
 GameObject:
   m_ObjectHideFlags: 0
