@@ -109,10 +109,10 @@ TextureImporter:
       name: foragerFinal_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 219
+        y: 637
+        width: 341
+        height: 982
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,7 +129,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 49917cbacff592547abe2d4ddab49fe7
     internalID: 0
     vertices: []
     indices: 
