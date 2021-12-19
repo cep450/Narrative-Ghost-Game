@@ -37,18 +37,19 @@ public class ScaredIcon : MonoBehaviour
 
     IEnumerator enableRoutine() {
 
-        float amountToTranslate = 250f;
+        float amountToTranslate = 300f;
+        float deltaMult = 1f;
 
         Vector3 pos = transform.position; 
         
-        transform.Translate(Vector3.up * amountToTranslate);
+        //transform.Translate(0, amountToTranslate, 0);
 
         //-2(x)(x-1.5)
         //0 thorugh 1
-        for(float tracker = 0; tracker < 1; tracker += Time.deltaTime) {
-            float x = Time.deltaTime;
+        for(float tracker = 0; tracker < 1; tracker += Time.deltaTime * deltaMult) {
+            float x = tracker;
             float y = -2 * (x) * (x - 1.5f);
-            transform.position = new Vector3(pos.x, pos.y + (amountToTranslate * y), pos.z);
+            transform.position = new Vector3(pos.x, pos.y + amountToTranslate - (amountToTranslate * y), pos.z);
             yield return null;
         }
          
