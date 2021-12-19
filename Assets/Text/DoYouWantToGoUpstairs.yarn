@@ -28,4 +28,5 @@ Luigi: Sweet! Let's go.
 <<walkTo Tracy tracy 6 Stair2F>>
 <<wait 3>>
 <<walkTo Tracy Tracy 3 TracyBedroom>>
+<<enableScene SceneDirector 3 TheyAreProbablyPlayingMagicInBed>>
 ===

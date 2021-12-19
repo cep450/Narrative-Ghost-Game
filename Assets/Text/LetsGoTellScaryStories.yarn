@@ -47,4 +47,5 @@ Avery: Yo, what's going on?
 <<walkTo Tracy Tracy 10 TracyLivingRoom>>
 <<walkTo Avery Avery 6 AveryDock>>
 
+<<enableScene SceneDirector 5 ScaryStories>>
 ===
