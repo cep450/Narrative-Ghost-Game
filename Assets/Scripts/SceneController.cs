@@ -6,11 +6,11 @@ namespace Yarn.Unity {
 public class SceneController : MonoBehaviour
 {
 
-    //makes stuff happen at the right times. 
-    //enables Scenes ie starting them up. 
+        //makes stuff happen at the right times. 
+        //enables Scenes ie starting them up. 
 
 
-    public GameObject parent = GameObject.Find()
+    public GameObject parent;
     public GameObject sc_intro; 
     public GameObject sc_dontburn;
     public GameObject sc_puffball;

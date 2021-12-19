@@ -120,7 +120,7 @@ TextureImporter:
         width: 299
         height: 984
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,10 +138,10 @@ TextureImporter:
         serializedVersion: 2
         x: 722
         y: 666
-        width: 385
-        height: 984
+        width: 486
+        height: 1005
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,27 +149,6 @@ TextureImporter:
       bones: []
       spriteID: de18945f1c0315b50800000000000000
       internalID: 6580094140167061997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shaunFinal_2
-      rect:
-        serializedVersion: 2
-        x: 969
-        y: 1459
-        width: 247
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4eea06cbed02aab0800000000000000
-      internalID: -4998417330136748470
       vertices: []
       indices: 
       edges: []
