@@ -5,9 +5,12 @@ TextureImporter:
   - first:
       213: -3421582560614385086
     second: tracyFinal_0
+<<<<<<< Updated upstream
   - first:
       213: -938573161874770360
     second: tracyFinal_1
+=======
+>>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -112,12 +115,21 @@ TextureImporter:
       name: tracyFinal_0
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 195
         y: 651
         width: 259
         height: 915
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 144
+        y: 648
+        width: 312
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -129,6 +141,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+<<<<<<< Updated upstream
     - serializedVersion: 2
       name: tracyFinal_1
       rect:
@@ -150,6 +163,8 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+>>>>>>> Stashed changes
     outline: []
     physicsShape: []
     bones: []

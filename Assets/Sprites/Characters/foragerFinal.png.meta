@@ -109,10 +109,17 @@ TextureImporter:
       name: foragerFinal_0
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 219
         y: 637
         width: 341
         height: 982
+=======
+        x: 216
+        y: 633
+        width: 352
+        height: 987
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
