@@ -22,6 +22,8 @@ public class SceneController : MonoBehaviour
     public GameObject sc_ending;
     //ect for scenes 
 
+    public GameObject face_shaun, face_tracy, face_luigi, face_avery, face_preston;
+
 
 
     // Start is called before the first frame update
@@ -32,11 +34,20 @@ public class SceneController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
 
-
+    [YarnCommand("showFace")]
+    public void showFace(string name) {
+        if(name.Equals("Shaun")) {
+            face_shaun.SetActive(true);
+        } else if(name.Equals("Avery")) {
+            face_avery.SetActive(true);
+        } else if(name.Equals("Luigi")) {
+            face_luigi.SetActive(true);
+        } else if(name.Equals("Tracy")) {
+            face_tracy.SetActive(true);
+        } else if(name.Equals("Preston")) {
+            face_preston.SetActive(true);
+        }
     }
 
     IEnumerator Intro() {
@@ -49,6 +60,7 @@ public class SceneController : MonoBehaviour
         sc_intro.SetActive(true);
     }
 
+    
 
     [YarnCommand("enableScene")]
     public void enableNextScene(string seconds, string sceneName) {

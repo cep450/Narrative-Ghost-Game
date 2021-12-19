@@ -9,7 +9,7 @@ public class SoundEffectController : MonoBehaviour
     public AudioClip [] sounds;
     public string [] clipNames;
     public AudioSource source;
-    
+
     [YarnCommand("playSound")] //<<playSound ObjectName stringInput>>
     public void playSound(string effectName) {
         //play sound depending on the name
