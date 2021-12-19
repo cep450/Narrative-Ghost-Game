@@ -71,11 +71,17 @@ Ghost: I have two hours to frighten these rapscallions enough to leave me alone.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
 <<set $isGhostTalking to 0>>
+<<showFace SceneDirector Luigi>>
+<<showFace SceneDirector Preston>>
+<<showFace SceneDirector Tracy>>
+<<showFace SceneDirector Shaun>>
+<<showFace SceneDirector Avery>>
 <<walkTo Luigi Luigi 3 LuigiLivingRoom>>
 <<walkTo Preston Preston 4 PrestonBasement>>
 <<walkTo Tracy Tracy 4 TracyBedroom>>
 <<walkTo Shaun Shaun 4 ShaunDock>>
 <<walkTo Avery Avery 4 AveryLivingRoom>>
 <<wait 5>>
+<<enableScene SceneDirector 1 DontBurnTheHouseDown>>
 
 ===
