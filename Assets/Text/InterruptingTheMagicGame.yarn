@@ -24,4 +24,5 @@ Shaun: I guess this is the room.
 <<set $isTracyTalking to 0>>
 <<set $haunted to 0>>
 <<walkTo Avery Avery 5 AveryBedroom>>
+<<enableScene SceneDirector 1 LetsGoTellScaryStories>>
 ===

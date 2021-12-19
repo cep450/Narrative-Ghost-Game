@@ -14,4 +14,5 @@ Avery: Just knock before you enter. You know how easily she startles.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
 <<walkTo Shaun Shaun 4 ShaunBedroom>>
+<<enableScene SceneDirector 1 InterruptingTheMagicGame>>
 ===
