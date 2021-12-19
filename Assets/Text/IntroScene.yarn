@@ -23,17 +23,22 @@ Ghost:...that doesn't look like their usual automobile either.
 <<set $isShaunTalking to 1>>
 <<set $isAveryTalking to 1>>
 <<walkTo Luigi Luigi 3 LuigiEntrance>>
+<<showFace SceneDirector Luigi>>
 Luigi: Well, folks, here we are!
 Ghost: Oh, no.
 Luigi: My family's little home-away-from-home.
 Ghost: This is not the usual family.
 <<walkTo Preston Preston 5 PrestonEntrance>>
+<<showFace SceneDirector Preston>>
 Preston: This place looks awesome!
 <<walkTo Avery Avery 3 AveryEntrance>>
+<<showFace SceneDirector Avery>>
 Avery: This place looks abandoned as heck.
 <<walkTo Shaun Shaun 4 ShaunEntrance>>
+<<showFace SceneDirector Shaun>>
 Shaun: It's an old house in the woods on a lake. I think that looking abandoned is part of the architecture.
 <<walkTo Tracy Tracy 8 TracyEntrance>>
+<<showFace SceneDirector Tracy>>
 Tracy: Who cares? I'm ready to party!
 Ghost: Teenagers.
 Luigi: First we should get this stuff inside.
