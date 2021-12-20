@@ -31,6 +31,12 @@ public class ScaredIcon : MonoBehaviour
         }
     }
 
+    [YarnCommand("flipSprite")]
+    public void flipSprite() {
+        scaredImg.SetActive(true);
+        normalImg.SetActive(false);
+    }
+
     void OnEnable() {
         StartCoroutine(enableRoutine());
     }
