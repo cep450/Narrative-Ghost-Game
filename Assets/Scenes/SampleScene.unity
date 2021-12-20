@@ -4135,7 +4135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: startNode
-      value: InterruptingTheMagicGame
+      value: LetsGoTellScaryStories
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: possessShaun
@@ -4848,7 +4848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: startNode
-      value: EndingScene.Start
+      value: EndingScene
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: possessLuigi
@@ -4861,11 +4861,11 @@ PrefabInstance:
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: scriptBaseline
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 3282c43c317a98f4aac9dc7f76576f99, type: 3}
+      objectReference: {fileID: 2480198943629176163, guid: 49aaa4f7ce3a8c34bb26959f4cead866, type: 3}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: scriptInteraction
       value: 
-      objectReference: {fileID: 2480198943629176163, guid: 3282c43c317a98f4aac9dc7f76576f99, type: 3}
+      objectReference: {fileID: 2480198943629176163, guid: 49aaa4f7ce3a8c34bb26959f4cead866, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56087425994332241bf78c46fadeada2, type: 3}
 --- !u!1 &1438623379 stripped
