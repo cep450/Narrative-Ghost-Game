@@ -328,8 +328,15 @@ Avery: Got it.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
 <<set $haunted to 0>>
-<<walkTo Avery Avery 4 AveryLivingRoom>>
-<<walkTo Shaun Shaun 4 ShaunLivingRoom>>
+<<walkTo Avery Avery 8 LakeStairsBottom>>
+<<wait 3>>
+<<walkTo Shaun Shaun 8 LakeStairsBottom>>
+<<walkTo Avery Avery 12 LakeStairsTop>>
+<<wait 3>>
+<<walkTo Shaun Shaun 8 LakeStairsTop>>
+<<walkTo Avery Avery 15 AveryLivingRoom>>
+<<wait 8>>
+<<walkTo Shaun Shaun 15 ShaunLivingRoom>>
 <<enableScene SceneDirector 5 CookingThePuffball>>
 ===
 title: HFHShaunPossessed2
