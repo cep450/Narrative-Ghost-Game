@@ -2906,6 +2906,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myE: {fileID: 1898083607}
+  possessSfx: {fileID: 8300000, guid: 314b1e8807887b04397ee13c34462e98, type: 3}
+  source: {fileID: 818157980}
 --- !u!50 &836029336
 Rigidbody2D:
   serializedVersion: 4

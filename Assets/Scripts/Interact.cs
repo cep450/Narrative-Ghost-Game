@@ -8,6 +8,9 @@ public class Interact : MonoBehaviour
 
     public SpriteRenderer myE;
 
+    public AudioClip possessSfx;
+    public AudioSource source;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +38,7 @@ public class Interact : MonoBehaviour
             if(sceneOverlapping != null) {
                 sceneOverlapping.possess();
                 myE.enabled = false; 
+                source.PlayOneShot(possessSfx);
             }
 
         }
@@ -53,6 +57,7 @@ public class Interact : MonoBehaviour
             if(sceneOverlapping != null) {
                 sceneOverlapping.possess();
                 myE.enabled = false; 
+                source.PlayOneShot(possessSfx);
             }
 
         }
