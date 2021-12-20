@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 14,-723
 ---
+<<disableScene SceneDirector 1 InterruptingTheMagicGame>>
 Avery: Yo, what's going on?
 <<set $isAveryTalking to 1>>
 <<set $isTracyTalking to 1>>

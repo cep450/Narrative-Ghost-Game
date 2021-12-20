@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 215,-286
 ---
+<<disableScene SceneDirector 1 DoYouWantToGoUpstairs>>
 <<walkTo Shaun Shaun 4 ShaunLivingRoom>>
 <<walkTo Avery Avery 4 AveryLivingRoom>>
 Shaun: Hey brah, where's Tracy?

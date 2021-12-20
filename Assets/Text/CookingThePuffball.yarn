@@ -49,4 +49,5 @@ Luigi: Well, I can't wait to eat.
 <<set $isPrestonPossessed to 0>>
 <<set $haunted to 0>>
 <<walkTo Luigi Luigi 4 LuigiLivingRoom>>
+<<enableScene SceneDirector 4 EndingScene>>
 ===

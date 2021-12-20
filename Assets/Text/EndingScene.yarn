@@ -37,6 +37,7 @@ tags:
 colorID: 0
 position: 149,-565
 ---
+<<disableScene SceneDirector 1 ScaryStories>>
 Luigi: So, how's everyone doing?
 <<walk Director AveryLivingRoom>>
 <<walk Director ShaunLivingRoom>>

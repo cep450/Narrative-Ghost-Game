@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 315,-24
 ---
+<<disableScene SceneDirector 1 Intro>>
 <<walkTo Luigi Luigi 4 LuigiKitchen>>
 <<walkTo Preston Preston 4 PrestonKitchen>>
 <<wait 8>>

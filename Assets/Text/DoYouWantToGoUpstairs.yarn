@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 266,-153
 ---
+<<disableScene SceneDirector 1 DontBurnTheHouseDown>>
 <<walkTo Tracy Tracy 6 Stairs2F>>
 <<wait 2>>
 <<walkTo Tracy Tracy 8 Stairs1F>>
