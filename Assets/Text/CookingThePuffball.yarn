@@ -8,6 +8,7 @@ position: -586,-1470
 Luigi: So what're you cooking?
 <<set $isLuigiTalking to 1>>
 <<set $isPrestonTalking to 1>>
+<<set $isPrestonPossessed to 1>>
 ->Preston: Puffball ala Preston.
     Luigi: Oh, what is that?
 ->Preston: A puffball mushroom. It'll be good to have some food after all that driving.<<if $isPrestonPossessed is 1>>

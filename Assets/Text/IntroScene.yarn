@@ -76,6 +76,7 @@ Ghost: I have two hours to frighten these rapscallions enough to leave me alone.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
 <<set $isGhostTalking to 0>>
+<<set $haunted to 0>>
 <<walkTo Luigi Luigi 9 Stairs1F>>
 <<wait 1>>
 <<walkTo Luigi Luigi 7 LuigiKitchen>>
