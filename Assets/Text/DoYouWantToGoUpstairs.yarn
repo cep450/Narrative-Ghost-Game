@@ -22,10 +22,10 @@ Luigi: Sweet! Let's go.
 <<walkTo Luigi Luigi 6 Stairs1F>>
 <<wait 2>>
 <<walkTo Luigi Luigi 8 Stairs2F>>
-<<walkTo Tracy Tracy 4 Stairs 1F>>
+<<walkTo Tracy Tracy 4 Stairs1F>>
 <<wait 3>>
 <<walkTo Luigi Luigi 8 LuigiBedroom>>
-<<walkTo Tracy Tracy 6 Stair2F>>
+<<walkTo Tracy Tracy 6 Stairs2F>>
 <<wait 3>>
 <<walkTo Tracy Tracy 3 TracyBedroom>>
 <<enableScene SceneDirector 3 TheyAreProbablyPlayingMagicInBed>>

@@ -1564,6 +1564,10 @@ PrefabInstance:
       propertyPath: scriptInteraction
       value: 
       objectReference: {fileID: 2480198943629176163, guid: f90716c715e41b9469e10a462a37c6ad, type: 3}
+    - target: {fileID: 6541970951683422567, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56087425994332241bf78c46fadeada2, type: 3}
 --- !u!1 &394213480 stripped
@@ -2074,6 +2078,10 @@ PrefabInstance:
       propertyPath: scriptInteraction
       value: 
       objectReference: {fileID: 2480198943629176163, guid: 4f1ad49937381ae468dfd92218b24292, type: 3}
+    - target: {fileID: 6541970951683422567, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56087425994332241bf78c46fadeada2, type: 3}
 --- !u!1 &551290905 stripped
@@ -4143,6 +4151,10 @@ PrefabInstance:
       propertyPath: scriptInteraction
       value: 
       objectReference: {fileID: 2480198943629176163, guid: 8bdd7418261ec8e4b86042a70d2ff2b0, type: 3}
+    - target: {fileID: 6541970951683422567, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56087425994332241bf78c46fadeada2, type: 3}
 --- !u!1 &1228206564
@@ -6967,6 +6979,10 @@ PrefabInstance:
       propertyPath: scriptInteraction
       value: 
       objectReference: {fileID: 2480198943629176163, guid: f235e4143c6b56743920213f638d6584, type: 3}
+    - target: {fileID: 6541970951683422567, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56087425994332241bf78c46fadeada2, type: 3}
 --- !u!1 &2045610513 stripped
@@ -7215,6 +7231,10 @@ PrefabInstance:
       propertyPath: scriptInteraction
       value: 
       objectReference: {fileID: 2480198943629176163, guid: 4bb0a67c23712d146ac338d6b7fa33db, type: 3}
+    - target: {fileID: 6541970951683422567, guid: 56087425994332241bf78c46fadeada2, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56087425994332241bf78c46fadeada2, type: 3}
 --- !u!1 &2125780914 stripped
