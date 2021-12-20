@@ -18,12 +18,13 @@ Shaun: You in there?
     Tracy: I can't help it I'm so good, Luigi.
     Shaun: I'm coming in.
 	<<walkTo Shaun Shaun 3 LuigiBedroom>>
-->Shaun: BOO!<<if $isShaunPossessed is 1>>
+->Shaun: BOO!
 	<<walkTo Shaun Shaun 12 LuigiBedroom>>
     Tracy: EEEEEK!
 	<<set $isTracyScared to 1>>
 	<<flipSprite TracyUISwitcher>>
     Luigi: Yo, what the hell, Shaun?!
+
 Avery: What's all the noise about?
 <<set $isShaunTalking to 0>>
 <<set $isLuigiTalking to 0>>
