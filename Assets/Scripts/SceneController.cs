@@ -62,7 +62,6 @@ public class SceneController : MonoBehaviour
     }
 
     
-
     [YarnCommand("enableScene")]
     public void enableNextScene(string seconds, string sceneName) {
 
@@ -109,7 +108,7 @@ public class SceneController : MonoBehaviour
 
     IEnumerator disableSceneRoutine(float seconds, GameObject sc) {
         yield return new WaitForSeconds(seconds);
-        sc.SetActive(false);
+        sc.GetComponent<BoxCollider2D>().enabled = false;
     }
 
     //private IEnumerator TimedScene(Scene scene) {
