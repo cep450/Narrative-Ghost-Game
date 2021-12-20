@@ -97,6 +97,8 @@ public class SceneController : MonoBehaviour
             sc = sc_scarystories;
         } else if(sceneName.Equals("EndingScene")) {
             sc = sc_ending;
+        } else if(sceneName.Equals("Intro")) {
+            sc = sc_intro;
         }
         return sc;
     }
