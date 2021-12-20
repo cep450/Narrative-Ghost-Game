@@ -246,6 +246,8 @@ Shaun: Yeah, ok. But we are NOT coming back down to this lake again.
 Avery: Got it.
 <<set $isShaunScared to 1>>
 <<set $isAveryScared to 1>>
+<<flipSprite ShaunUISwitcher>>
+<<flipSprite AveryUISwitcher>>
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
 <<set $haunted to 0>>
