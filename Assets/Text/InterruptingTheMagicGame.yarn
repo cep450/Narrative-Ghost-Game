@@ -22,12 +22,14 @@ Shaun: You in there?
 	<<walkTo Shaun Shaun 12 LuigiBedroom>>
     Tracy: EEEEEK!
 	<<set $isTracyScared to 1>>
+	<<flipSprite TracyUISwitcher>>
     Luigi: Yo, what the hell, Shaun?!
-<<set $isShaunPossessed to 0>>
+Avery: What's all the noise about?
 <<set $isShaunTalking to 0>>
 <<set $isLuigiTalking to 0>>
 <<set $isTracyTalking to 0>>
+<<set $isShaunPossessed to 0>>
 <<set $haunted to 0>>
 <<walkTo Avery Avery 5 AveryBedroom>>
-<<enableScene SceneDirector 1 LetsGoTellScaryStories>>
+<<enableScene SceneDirector 3 LetsGoTellScaryStories>>
 ===

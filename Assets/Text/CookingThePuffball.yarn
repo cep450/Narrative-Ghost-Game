@@ -42,6 +42,7 @@ Luigi: Well, I can't wait to eat.
     Luigi: No, dude, the puffball is on fire!
     Preston: Oh, shit!
     <<set $isPrestonScared to 1>>
+    <<flipSprite PrestonUISwitcher>>
 <<else>>
     Preston: It should be ready just after 11.
 <<endif>>
