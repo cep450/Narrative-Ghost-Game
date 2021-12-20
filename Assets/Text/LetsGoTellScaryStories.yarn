@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 14,-723
 ---
+<<disableScene SceneDirector 1 InterruptingTheMagicGame>>
 Avery: Yo, what's going on?
 <<set $isAveryTalking to 1>>
 <<set $isTracyTalking to 1>>
@@ -27,8 +28,26 @@ Avery: Yo, what's going on?
 <<set $isTracyTalking to 0>>
 <<set $isShaunTalking to 0>>
 <<set $isLuigiTalking to 0>>
-<<walkTo Shaun Shaun 4 ShaunDock>>
-<<walkTo Avery Avery 4 AveryDock>>
-<<walkTo Luigi Luigi 4 LuigiKitchen>>
-<<walkTo Tracy Tracy 4 TracyLivingRoom>>
+<<walkTo Shaun Shaun 4 Stairs2F>>
+<<wait 2>>
+<<walkTo Avery Avery 4 Stairs2F>>
+<<walkTo Shaun Shaun 12 Stairs1F>>
+<<wait 2>>
+<<walkTo Avery Avery 4 Stairs1F>>
+<<walkTo Luigi Luigi 6 Stairs2F>>
+<<walkTo Shaun Shaun 12 LakeStairsTop>>
+<<wait 6>>
+<<walkTo Tracy Tracy 4 Stairs2F>>
+<<walkTo Avery Avery 7 LakeStairsTop>>
+<<walkTo Luigi Luigi 4 Stairs1F>>
+<<walkTo Shaun Shaun 12 LakeStairsBottom>>
+<<wait 6>>
+<<walkTo Tracy Tracy 8 Stairs1F>>
+<<walkTo Avery Avery 6 LakeStairsBottom>>
+<<walkTo Shaun Shaun 6 ShaunDock>>
+<<wait 2>>
+<<walkTo Tracy Tracy 10 TracyLivingRoom>>
+<<walkTo Avery Avery 6 AveryDock>>
+
+<<enableScene SceneDirector 5 ScaryStories>>
 ===

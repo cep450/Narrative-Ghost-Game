@@ -3,8 +3,9 @@ tags:
 colorID: 0
 position: 315,-24
 ---
+<<disableScene SceneDirector 1 Intro>>
 <<walkTo Luigi Luigi 4 LuigiKitchen>>
-<<walkTo Preston PReston 4 PrestonKitchen>>
+<<walkTo Preston Preston 4 PrestonKitchen>>
 <<wait 8>>
 Luigi: Hey man, don't burn the house down with that.
 <<set $isLuigiTalking to 1>>
@@ -15,4 +16,6 @@ Preston: Fire is not a joke.
 <<set $isLuigiTalking to 0>>
 <<set $isPrestonTalking to 0>>
 <<walkTo Preston Preston 4 PrestonKitchen>>
+<<walkTo Luigi Luigi 4 LuigiLivingRoom>>
+<<enableScene SceneDirector 2 DoYouWantToGoUpstairs>>
 ===

@@ -55,7 +55,7 @@ namespace Yarn.Unity
                 Vector2 currentPos = new Vector2(transform.position.x, transform.position.y);
                 Vector2 targetPos = new Vector2(coords[i], coords[i + 1]);
 
-                if (Vector2.Distance(currentPos, targetPos) > 0.1)
+                if (Vector2.Distance(currentPos, targetPos) > 0.01)
                 {
                     transform.position = Vector2.MoveTowards(currentPos, targetPos, speed * Time.deltaTime);
                 }

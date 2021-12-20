@@ -3,8 +3,14 @@ tags:
 colorID: 0
 position: 215,-286
 ---
-<<walkTo Shaun Shaun 4 ShaunLivingRoom>>
+<<disableScene SceneDirector 1 DoYouWantToGoUpstairs>>
+<<walkTo Shaun Shaun 4 LakeStairsBottom>>
+<<wait 1>>
+<<walkTo Shaun Shaun 6 LakeStairsTop>>
+<<wait 1>>
 <<walkTo Avery Avery 4 AveryLivingRoom>>
+<<walkTo Shaun Shaun 8 ShaunLivingRoom>>
+<<wait 5>>
 Shaun: Hey brah, where's Tracy?
 <<set $isShaunTalking to 1>>
 <<set $isAveryTalking to 1>>
@@ -13,5 +19,5 @@ Shaun: Cool. I'm headed up there.
 Avery: Just knock before you enter. You know how easily she startles.
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
-<<walkTo Shaun Shaun 4 ShaunBedroom>>
+<<enableScene SceneDirector 1 InterruptingTheMagicGame>>
 ===

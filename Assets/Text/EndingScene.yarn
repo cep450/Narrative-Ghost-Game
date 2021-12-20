@@ -1,3 +1,91 @@
+title: LuigiBoard
+tags: 
+colorID: 0
+position: 357,-297
+---
+Luigi: So, how's everyone doing?
+<<walk Director AveryLivingRoom>>
+<<walk Director ShaunLivingRoom>>
+<<walk Director TracyLivingRoom>>
+<<walk Director PrestonLivingRoom>>
+<<set $isLuigiTalking to 1>>
+<<set $isPrestonTalking to 1>>
+<<set $isTracyTalking to 1>>
+<<set $isShaunTalking to 1>>
+<<set $isAveryTalking to 1>>
+Tracy: Hey, Luigi, what is with this place?
+Preston: Wait, you're freaked out too?
+Avery: Oh my gosh, YES, this place is seriously weird!
+Shaun: Like, REALLY bad vibes.
+Luigi: What are you talking about?
+Tracy: You haven't noticed it?
+Shaun: This place is bad vibes. I think it's haunted.
+Avery: Well, I'm glad you said it.
+Luigi: What are you talking about?
+Preston: Shaun's right. This place is haunted.
+Luigi: C'mon, I don't think that's a thing.
+Luigi: Look, everyone, it's late, we're kind of tired, we've been in the car for a long time, maybe we should call it a night and throw this party tomorrow?
+Tracy: No, I want to get out of here!
+Shaun: Wait, do we still have that Ouija board?
+Luigi: Yes, why?
+Shaun: We can use that to talk to the ghost!
+Avery: Let's go. I want to kick this ghost's ass.
+Luigi: Well, if you insist. Everyone, hands on the peplum.
+Preston: So, uh, how does this work?
+Tracy: In the movies you just ask a question aloud.
+Avery: Yo, ghost! What the hell, dude?!
+Shaun: I think you need to be a bit more specific than that, brah.
+Luigi: Ghost, if you exist, could you tell us what you want? My friends are kind of freaked out.
+->Ghost: Now is my chance. I suppose I should possess my descendant here.
+    Luigi: ...
+Tracy: ...Luigi? Are you okay?
+Luigi: Your friend is perfectly sound.
+Preston: What the-
+Avery: Freaking-
+Shaun: Dude!
+Tracy: EEEK!
+Luigi: There is no need for all this shouting, really. It's most uncouth.
+Avery: Get the hell out of my friend so I can kick your ass!
+Luigi: There is no need for that, really.
+Tracy: What do you want?!
+Luigi: Honestly, I would like for you rapscallions to leave.
+Shaun: What?
+Luigi: This is my house. It has been my house for a long time. I tolerate your friend Luigi as my descendant. They are quiet, come by to clean occasionally, and leave me to spend my afterlife in peace.
+Luigi: But you youths have arrived without any warning, and have decided to throw a festival of debauchery in my humble abode? No. I did not consent to this.
+Luigi: You may stay the night if you wish, but I must insist that whatever plans you have to shindig here be ceased.
+Preston: Is that why you were messing with us?
+Luigi: Forgive me for that, but my hands were tied, so to speak. I never did possess a talent for possession of objects, so I could not even compel any of you to write a note. And I very much doubt you would have believed it if I had directly informed any of you of my presence through your voices. 
+Luigi: Frightening you away from this place truly did seem the only option.
+Avery: So, if we don't party here, you'll leave us alone?
+Luigi: As I said, you may stay the night if you must, but then I would like you to leave. If you must come with my descendant in the future, then please keep your stay here brief and, above all, quiet.
+Luigi: Can you all agree to that?
+Tracy: I mean...I guess.
+Avery: Yeah, whatever.
+Shaun: Ok, dude.
+Preston: Yeah, just, please don't scare us again.
+Luigi: Do not worry. I have no intentions of interacting directly with any of you again, unless you make it necessary for me to do so.
+Luigi: Now, I shall be taking my leave.
+<<set $isLuigiPossessed to 0>>
+Luigi: ...
+Tracy: Luigi? Are you back? Are you okay?
+Avery: Wait, we didn't even get it's name!
+Luigi: Well, that explains a lot.
+Shaun: You know what that thing said?
+Luigi: Yeah, I could hear him. It's kind of weird that he talked using me, but whatever.
+Preston: You still aren't scared??
+Luigi: I mean, I'm surprised, sure, but I wouldn't say scared.
+Avery: Goddamn badass, dude.
+Tracy: You're never scared by anything, are you?
+Luigi: Never needed to be.
+Shaun: Dude.
+Avery: Like I said, badass.
+<<set $isLuigiTalking to 0>>
+<<set $isPrestonTalking to 0>>
+<<set $isTracyTalking to 0>>
+<<set $isShaunTalking to 0>>
+<<set $isAveryTalking to 0>>
+<<set $haunted to 0>>
+===
 title: LetsGetThisPartyStarted
 tags: 
 colorID: 0
@@ -32,32 +120,12 @@ Shaun: Drink!
 <<set $isShaunTalking to 0>>
 <<set $isAveryTalking to 0>>
 ===
-title: EndingScene.Start
+title: EndingScene
 tags: 
 colorID: 0
 position: 149,-565
 ---
 Luigi: So, how's everyone doing?
-<<walk Director AveryLivingRoom>>
-<<walk Director ShaunLivingRoom>>
-<<walk Director TracyLivingRoom>>
-<<walk Director PrestonLivingRoom>>
-<<set $isLuigiTalking to 1>>
-<<set $isPrestonTalking to 1>>
-<<set $isTracyTalking to 1>>
-<<set $isShaunTalking to 1>>
-<<set $isAveryTalking to 1>>
-<<if $isPrestonScared is 1 && $isTracyScared is 1 && $isShaunScared is 1 && $isAveryScared is 1>>
-    [[LuigiBoard]]
-<<else>>
-    [[LetsGetThisPartyStarted]]
-<<endif>>
-===
-title: LuigiBoard
-tags: 
-colorID: 0
-position: 357,-297
----
 Tracy: Hey, Luigi, what is with this place?
 Preston: Wait, you're freaked out too?
 Avery: Oh my gosh, YES, this place is seriously weird!

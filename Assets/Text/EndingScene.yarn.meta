@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3282c43c317a98f4aac9dc7f76576f99
+guid: 49aaa4f7ce3a8c34bb26959f4cead866
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -10,92 +10,158 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: en-US
   stringIDs:
-  - EndingScene-LetsGetThisPartyStarted-0
-  - EndingScene-LetsGetThisPartyStarted-1
-  - EndingScene-LetsGetThisPartyStarted-2
-  - EndingScene-LetsGetThisPartyStarted-3
-  - EndingScene-LetsGetThisPartyStarted-4
-  - EndingScene-LetsGetThisPartyStarted-5
-  - EndingScene-LetsGetThisPartyStarted-6
-  - EndingScene-LetsGetThisPartyStarted-7
-  - EndingScene-LetsGetThisPartyStarted-8
-  - EndingScene-LetsGetThisPartyStarted-9
-  - EndingScene-LetsGetThisPartyStarted-10
-  - EndingScene-LetsGetThisPartyStarted-11
-  - EndingScene-LetsGetThisPartyStarted-12
-  - EndingScene-LetsGetThisPartyStarted-13
-  - EndingScene-LetsGetThisPartyStarted-14
-  - EndingScene-LetsGetThisPartyStarted-15
-  - EndingScene-LetsGetThisPartyStarted-16
-  - EndingScene-LetsGetThisPartyStarted-17
-  - EndingScene-EndingScene.Start-18
-  - EndingScene-LuigiBoard-19
-  - EndingScene-LuigiBoard-20
-  - EndingScene-LuigiBoard-21
-  - EndingScene-LuigiBoard-22
-  - EndingScene-LuigiBoard-23
-  - EndingScene-LuigiBoard-24
-  - EndingScene-LuigiBoard-25
-  - EndingScene-LuigiBoard-26
-  - EndingScene-LuigiBoard-27
-  - EndingScene-LuigiBoard-28
-  - EndingScene-LuigiBoard-29
-  - EndingScene-LuigiBoard-30
-  - EndingScene-LuigiBoard-31
-  - EndingScene-LuigiBoard-32
-  - EndingScene-LuigiBoard-33
-  - EndingScene-LuigiBoard-34
-  - EndingScene-LuigiBoard-35
-  - EndingScene-LuigiBoard-36
-  - EndingScene-LuigiBoard-37
-  - EndingScene-LuigiBoard-38
-  - EndingScene-LuigiBoard-39
-  - EndingScene-LuigiBoard-40
-  - EndingScene-LuigiBoard-41
-  - EndingScene-LuigiBoard-42
-  - EndingScene-LuigiBoard-43
-  - EndingScene-LuigiBoard-44
-  - EndingScene-LuigiBoard-45
-  - EndingScene-LuigiBoard-46
-  - EndingScene-LuigiBoard-47
-  - EndingScene-LuigiBoard-48
-  - EndingScene-LuigiBoard-49
-  - EndingScene-LuigiBoard-50
-  - EndingScene-LuigiBoard-51
-  - EndingScene-LuigiBoard-52
-  - EndingScene-LuigiBoard-53
-  - EndingScene-LuigiBoard-54
-  - EndingScene-LuigiBoard-55
-  - EndingScene-LuigiBoard-56
-  - EndingScene-LuigiBoard-57
-  - EndingScene-LuigiBoard-58
-  - EndingScene-LuigiBoard-59
-  - EndingScene-LuigiBoard-60
-  - EndingScene-LuigiBoard-61
-  - EndingScene-LuigiBoard-62
-  - EndingScene-LuigiBoard-63
-  - EndingScene-LuigiBoard-64
-  - EndingScene-LuigiBoard-65
-  - EndingScene-LuigiBoard-66
-  - EndingScene-LuigiBoard-67
-  - EndingScene-LuigiBoard-68
-  - EndingScene-LuigiBoard-69
-  - EndingScene-LuigiBoard-70
-  - EndingScene-LuigiBoard-71
-  - EndingScene-LuigiBoard-72
-  - EndingScene-LuigiBoard-73
-  - EndingScene-LuigiBoard-74
-  - EndingScene-LuigiBoard-75
-  - EndingScene-LuigiBoard-76
-  - EndingScene-LuigiBoard-77
-  - EndingScene-LuigiBoard-78
-  - EndingScene-LuigiBoard-79
-  - EndingScene-LuigiBoard-80
-  - EndingScene-LuigiBoard-81
-  - EndingScene-LuigiBoard-82
-  - EndingScene-LuigiBoard-83
+  - EndingScene 1-LuigiBoard-0
+  - EndingScene 1-LuigiBoard-1
+  - EndingScene 1-LuigiBoard-2
+  - EndingScene 1-LuigiBoard-3
+  - EndingScene 1-LuigiBoard-4
+  - EndingScene 1-LuigiBoard-5
+  - EndingScene 1-LuigiBoard-6
+  - EndingScene 1-LuigiBoard-7
+  - EndingScene 1-LuigiBoard-8
+  - EndingScene 1-LuigiBoard-9
+  - EndingScene 1-LuigiBoard-10
+  - EndingScene 1-LuigiBoard-11
+  - EndingScene 1-LuigiBoard-12
+  - EndingScene 1-LuigiBoard-13
+  - EndingScene 1-LuigiBoard-14
+  - EndingScene 1-LuigiBoard-15
+  - EndingScene 1-LuigiBoard-16
+  - EndingScene 1-LuigiBoard-17
+  - EndingScene 1-LuigiBoard-18
+  - EndingScene 1-LuigiBoard-19
+  - EndingScene 1-LuigiBoard-20
+  - EndingScene 1-LuigiBoard-21
+  - EndingScene 1-LuigiBoard-22
+  - EndingScene 1-LuigiBoard-23
+  - EndingScene 1-LuigiBoard-24
+  - EndingScene 1-LuigiBoard-25
+  - EndingScene 1-LuigiBoard-26
+  - EndingScene 1-LuigiBoard-27
+  - EndingScene 1-LuigiBoard-28
+  - EndingScene 1-LuigiBoard-29
+  - EndingScene 1-LuigiBoard-30
+  - EndingScene 1-LuigiBoard-31
+  - EndingScene 1-LuigiBoard-32
+  - EndingScene 1-LuigiBoard-33
+  - EndingScene 1-LuigiBoard-34
+  - EndingScene 1-LuigiBoard-35
+  - EndingScene 1-LuigiBoard-36
+  - EndingScene 1-LuigiBoard-37
+  - EndingScene 1-LuigiBoard-38
+  - EndingScene 1-LuigiBoard-39
+  - EndingScene 1-LuigiBoard-40
+  - EndingScene 1-LuigiBoard-41
+  - EndingScene 1-LuigiBoard-42
+  - EndingScene 1-LuigiBoard-43
+  - EndingScene 1-LuigiBoard-44
+  - EndingScene 1-LuigiBoard-45
+  - EndingScene 1-LuigiBoard-46
+  - EndingScene 1-LuigiBoard-47
+  - EndingScene 1-LuigiBoard-48
+  - EndingScene 1-LuigiBoard-49
+  - EndingScene 1-LuigiBoard-50
+  - EndingScene 1-LuigiBoard-51
+  - EndingScene 1-LuigiBoard-52
+  - EndingScene 1-LuigiBoard-53
+  - EndingScene 1-LuigiBoard-54
+  - EndingScene 1-LuigiBoard-55
+  - EndingScene 1-LuigiBoard-56
+  - EndingScene 1-LuigiBoard-57
+  - EndingScene 1-LuigiBoard-58
+  - EndingScene 1-LuigiBoard-59
+  - EndingScene 1-LuigiBoard-60
+  - EndingScene 1-LuigiBoard-61
+  - EndingScene 1-LuigiBoard-62
+  - EndingScene 1-LuigiBoard-63
+  - EndingScene 1-LuigiBoard-64
+  - EndingScene 1-LuigiBoard-65
+  - EndingScene 1-LetsGetThisPartyStarted-66
+  - EndingScene 1-LetsGetThisPartyStarted-67
+  - EndingScene 1-LetsGetThisPartyStarted-68
+  - EndingScene 1-LetsGetThisPartyStarted-69
+  - EndingScene 1-LetsGetThisPartyStarted-70
+  - EndingScene 1-LetsGetThisPartyStarted-71
+  - EndingScene 1-LetsGetThisPartyStarted-72
+  - EndingScene 1-LetsGetThisPartyStarted-73
+  - EndingScene 1-LetsGetThisPartyStarted-74
+  - EndingScene 1-LetsGetThisPartyStarted-75
+  - EndingScene 1-LetsGetThisPartyStarted-76
+  - EndingScene 1-LetsGetThisPartyStarted-77
+  - EndingScene 1-LetsGetThisPartyStarted-78
+  - EndingScene 1-LetsGetThisPartyStarted-79
+  - EndingScene 1-LetsGetThisPartyStarted-80
+  - EndingScene 1-LetsGetThisPartyStarted-81
+  - EndingScene 1-LetsGetThisPartyStarted-82
+  - EndingScene 1-LetsGetThisPartyStarted-83
+  - EndingScene 1-EndSceneStart-84
+  - EndingScene 1-EndSceneStart-85
+  - EndingScene 1-EndSceneStart-86
+  - EndingScene 1-EndSceneStart-87
+  - EndingScene 1-EndSceneStart-88
+  - EndingScene 1-EndSceneStart-89
+  - EndingScene 1-EndSceneStart-90
+  - EndingScene 1-EndSceneStart-91
+  - EndingScene 1-EndSceneStart-92
+  - EndingScene 1-EndSceneStart-93
+  - EndingScene 1-EndSceneStart-94
+  - EndingScene 1-EndSceneStart-95
+  - EndingScene 1-EndSceneStart-96
+  - EndingScene 1-EndSceneStart-97
+  - EndingScene 1-EndSceneStart-98
+  - EndingScene 1-EndSceneStart-99
+  - EndingScene 1-EndSceneStart-100
+  - EndingScene 1-EndSceneStart-101
+  - EndingScene 1-EndSceneStart-102
+  - EndingScene 1-EndSceneStart-103
+  - EndingScene 1-EndSceneStart-104
+  - EndingScene 1-EndSceneStart-105
+  - EndingScene 1-EndSceneStart-106
+  - EndingScene 1-EndSceneStart-107
+  - EndingScene 1-EndSceneStart-108
+  - EndingScene 1-EndSceneStart-109
+  - EndingScene 1-EndSceneStart-110
+  - EndingScene 1-EndSceneStart-111
+  - EndingScene 1-EndSceneStart-112
+  - EndingScene 1-EndSceneStart-113
+  - EndingScene 1-EndSceneStart-114
+  - EndingScene 1-EndSceneStart-115
+  - EndingScene 1-EndSceneStart-116
+  - EndingScene 1-EndSceneStart-117
+  - EndingScene 1-EndSceneStart-118
+  - EndingScene 1-EndSceneStart-119
+  - EndingScene 1-EndSceneStart-120
+  - EndingScene 1-EndSceneStart-121
+  - EndingScene 1-EndSceneStart-122
+  - EndingScene 1-EndSceneStart-123
+  - EndingScene 1-EndSceneStart-124
+  - EndingScene 1-EndSceneStart-125
+  - EndingScene 1-EndSceneStart-126
+  - EndingScene 1-EndSceneStart-127
+  - EndingScene 1-EndSceneStart-128
+  - EndingScene 1-EndSceneStart-129
+  - EndingScene 1-EndSceneStart-130
+  - EndingScene 1-EndSceneStart-131
+  - EndingScene 1-EndSceneStart-132
+  - EndingScene 1-EndSceneStart-133
+  - EndingScene 1-EndSceneStart-134
+  - EndingScene 1-EndSceneStart-135
+  - EndingScene 1-EndSceneStart-136
+  - EndingScene 1-EndSceneStart-137
+  - EndingScene 1-EndSceneStart-138
+  - EndingScene 1-EndSceneStart-139
+  - EndingScene 1-EndSceneStart-140
+  - EndingScene 1-EndSceneStart-141
+  - EndingScene 1-EndSceneStart-142
+  - EndingScene 1-EndSceneStart-143
+  - EndingScene 1-EndSceneStart-144
+  - EndingScene 1-EndSceneStart-145
+  - EndingScene 1-EndSceneStart-146
+  - EndingScene 1-EndSceneStart-147
+  - EndingScene 1-EndSceneStart-148
+  - EndingScene 1-EndSceneStart-149
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {fileID: 7128917941130120860, guid: 3282c43c317a98f4aac9dc7f76576f99, type: 3}
+  baseLanguage: {fileID: 7128917941130120860, guid: 49aaa4f7ce3a8c34bb26959f4cead866, type: 3}
   localizations: []

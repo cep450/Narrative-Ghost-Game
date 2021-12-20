@@ -62,21 +62,27 @@ public class Scene : MonoBehaviour
         //set the yarn haunted variable to true
         variableStorage.SetValue("haunted", 1);
 
+        Debug.Log("haunted is now " + variableStorage.GetValue("haunted"));
+
         if(possessShaun) {
             variableStorage.SetValue("isShaunPossessed", 1);
-            Debug.Log("hi from setting s var");
+            Debug.Log("possessed shaun");
         }
         if(possessAvery) {
             variableStorage.SetValue("isAveryPossessed", 1);
+            Debug.Log("possessed avery");
         }
         if(possessPreston) {
             variableStorage.SetValue("isPrestonPossessed", 1);
+            Debug.Log("possessed preston");
         }
         if(possessTracy) {
             variableStorage.SetValue("isTracyPossessed", 1);
+            Debug.Log("possessed tracy");
         }
         if(possessLuigi) {
             variableStorage.SetValue("isLuigiPossessed", 1);
+            Debug.Log("possessed luigi");
         }
         
         //if this is a longer script, we need to translate what node it's on. 
@@ -86,26 +92,6 @@ public class Scene : MonoBehaviour
             dialogueRunner.Add(scriptInteraction);
             dialogueRunner.StartDialogue(nodename); //TODO naming convention 
         }
-        */
-
-        /*
-
-            // Store a value into a variable
-            public virtual void SetValue(string variableName, Yarn.Value value) {
-                // 'variableName' is the name of the variable that 'value' 
-                // should be stored in.
-            }
-
-            // Return a value, given a variable name
-            public virtual Yarn.Value GetValue(string variableName) {
-                // 'variableName' is the name of the variable to return a value for
-            }
-
-            // Return to the original state
-            public virtual void ResetToDefaults () {
-
-            }
-
         */
 
         //use Dialogue.currentNode 
