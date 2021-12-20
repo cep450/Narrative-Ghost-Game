@@ -5,11 +5,14 @@ position: 66,-593
 ---
 <<disableScene SceneDirector 1 TheyAreProbablyPlayingMagicInBed>>
 Shaun: I guess this is the room.
+Shaun: Hey, Tracy? Luigi?
+Shaun: You in there?
 <<walkTo Shaun Shaun 4 ShaunBedroom>>
 <<set $isShaunTalking to 1>>
 <<set $isTracyTalking to 1>>
 <<set $isLuigiTalking to 1>>
-->Shaun: Hey, Tracy? Luigi? You in there?<<if $isShaunPossessed is 0>>
+<<set $isShaunPossessed to 1>>
+->Shaun: Hey, what's going on?
     Tracy: Oh, hi Shaun! 
     Luigi: Help me, Shaun, she's kicking my ass.
     Tracy: I can't help it I'm so good, Luigi.
@@ -18,6 +21,7 @@ Shaun: I guess this is the room.
 ->Shaun: BOO!<<if $isShaunPossessed is 1>>
 	<<walkTo Shaun Shaun 12 LuigiBedroom>>
     Tracy: EEEEEK!
+	<<set $isTracyScared to 1>>
     Luigi: Yo, what the hell, Shaun?!
 <<set $isShaunPossessed to 0>>
 <<set $isShaunTalking to 0>>
