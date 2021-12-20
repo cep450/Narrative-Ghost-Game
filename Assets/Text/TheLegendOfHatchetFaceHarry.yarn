@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: -311,-1281
 ---
+<<disableScene SceneDirector 1 LetsGoTellScaryStories>>
 <<walkTo Shaun Shaun 4 ShaunDock>>
 <<walkTo Avery Avery 4 AveryDock>>
 <<wait 8>>
@@ -68,7 +69,7 @@ Avery: Nah, man. I'm good. I'd like to hear your dad tell it sometime, though.
 <<set $haunted to 0>>
 <<walkTo Avery Avery 4 AveryLivingRoom>>
 <<walkTo Shaun Shaun 4 ShaunLivingRoom>>
-<<enableScene SceneDirector 4 EndingScene>>
+<<enableScene SceneDirector 4 CookingThePuffball>>
 ===
 title: HFHShaunPossessed
 tags: 
@@ -250,7 +251,7 @@ Avery: Got it.
 <<set $haunted to 0>>
 <<walkTo Avery Avery 4 AveryLivingRoom>>
 <<walkTo Shaun Shaun 4 ShaunLivingRoom>>
-<<enableScene SceneDirector 5 EndingScene>>
+<<enableScene SceneDirector 5 CookingThePuffball>>
 ===
 title: HFHShaunPossessed2
 tags: 

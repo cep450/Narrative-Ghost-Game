@@ -2673,7 +2673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: possessAvery
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541970951683422566, guid: 56087425994332241bf78c46fadeada2, type: 3}
       propertyPath: possessShaun
