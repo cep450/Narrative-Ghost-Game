@@ -65,6 +65,20 @@ public class SceneController : MonoBehaviour
 
     [YarnCommand("enableScene")]
     public void enableNextScene(string seconds, string sceneName) {
+
+        GameObject sc = getSceneByName(sceneName);
+        float sec = float.Parse(seconds);
+        StartCoroutine(enableNextSceneRoutine(sec, sc));
+    }
+
+    [YarnCommand("disableScene")]
+    public void disableScene(string seconds, string sceneName) {
+        GameObject sc = getSceneByName(sceneName);
+        float sec = float.Parse(seconds);
+        StartCoroutine(disableSceneRoutine(sec, sc));
+    }
+
+    GameObject getSceneByName(string sceneName) {
         GameObject sc = null;
         if(sceneName.Equals("DontBurnTheHouseDown")) {
             sc = sc_dontburn;
@@ -85,14 +99,17 @@ public class SceneController : MonoBehaviour
         } else if(sceneName.Equals("EndingScene")) {
             sc = sc_ending;
         }
-
-        float sec = float.Parse(seconds);
-        StartCoroutine(enableNextSceneRoutine(sec, sc));
+        return sc;
     }
 
     IEnumerator enableNextSceneRoutine(float seconds, GameObject sc) {
         yield return new WaitForSeconds(seconds);
         sc.SetActive(true);
+    }
+
+    IEnumerator disableSceneRoutine(float seconds, GameObject sc) {
+        yield return new WaitForSeconds(seconds);
+        sc.SetActive(false);
     }
 
     //private IEnumerator TimedScene(Scene scene) {
